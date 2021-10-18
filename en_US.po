@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-10-03 12:41+0200\n"
+"POT-Creation-Date: 2021-10-18 13:18+0200\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,58 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/Content/PostDisplay.vala:71
-#, c-format
-msgid "%s using %s"
-msgstr "%s using %s"
-
-#. Set up options menu
-#: src/Content/PostDisplay.vala:85
+#. Hint for the user where the post can be opened in the browser
+#: src/Content/PostDisplay.vala:113
 #, c-format
 msgid "Open on %s"
 msgstr "Open on %s"
 
-#: src/Utils/DisplayUtils.vala:44
+#. Add date and source to info label
+#: src/Content/PostDisplay.vala:123
+#, c-format
+msgid "%s using %s"
+msgstr "%s using %s"
+
+#: src/Utils/DisplayUtils.vala:46
 #, c-format
 msgid "%i minute ago"
 msgid_plural "%i minutes ago"
 msgstr[0] "%i minute ago"
 msgstr[1] "%i minutes ago"
 
-#: src/Utils/DisplayUtils.vala:46
+#: src/Utils/DisplayUtils.vala:48
 #, c-format
 msgid "%im"
 msgstr "%im"
 
-#: src/Utils/DisplayUtils.vala:54
+#: src/Utils/DisplayUtils.vala:56
 #, c-format
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
 msgstr[0] "%i hour ago"
 msgstr[1] "%i hours ago"
 
-#: src/Utils/DisplayUtils.vala:56
+#: src/Utils/DisplayUtils.vala:58
 #, c-format
 msgid "%ih"
 msgstr "%ih"
 
 #. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:64
+#: src/Utils/DisplayUtils.vala:66
 msgid "%e %B"
 msgstr "%e %B"
 
-#: src/Utils/DisplayUtils.vala:66
+#: src/Utils/DisplayUtils.vala:68
 #, fuzzy
 msgid "%e %b"
 msgstr "%e %B"
 
 #. TRANSLATORS: Full-text date format for tweets from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:71
+#: src/Utils/DisplayUtils.vala:73
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
-#: src/Utils/DisplayUtils.vala:73
+#: src/Utils/DisplayUtils.vala:75
 #, fuzzy
 msgid "%e %b %y"
 msgstr "%e %B %Y"
+
+#: ui/Content/MediaPreviewItem.ui:27
+msgid "Animated GIF"
+msgstr "Animated GIF"
+
+#: ui/Content/MediaPreviewItem.ui:34
+msgid "Video"
+msgstr "Video"

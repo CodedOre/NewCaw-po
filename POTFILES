@@ -1,2 +1,3 @@
 src/Content/PostDisplay.vala
 src/Utils/DisplayUtils.vala
+ui/Content/MediaPreviewItem.ui

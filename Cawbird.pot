@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR 2021 Frederick Schenk
-# This file is distributed under the same license as the Cawbird package.
+# This file is distributed under the same license as the Cawbird-po package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Cawbird 1.9.0\n"
+"Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-10-03 12:41+0200\n"
+"POT-Creation-Date: 2021-10-18 13:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,56 +18,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: src/Content/PostDisplay.vala:71
-#, c-format
-msgid "%s using %s"
-msgstr ""
-
-#. Set up options menu
-#: src/Content/PostDisplay.vala:85
+#. Hint for the user where the post can be opened in the browser
+#: src/Content/PostDisplay.vala:113
 #, c-format
 msgid "Open on %s"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:44
+#. Add date and source to info label
+#: src/Content/PostDisplay.vala:123
+#, c-format
+msgid "%s using %s"
+msgstr ""
+
+#: src/Utils/DisplayUtils.vala:46
 #, c-format
 msgid "%i minute ago"
 msgid_plural "%i minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Utils/DisplayUtils.vala:46
+#: src/Utils/DisplayUtils.vala:48
 #, c-format
 msgid "%im"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:54
+#: src/Utils/DisplayUtils.vala:56
 #, c-format
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Utils/DisplayUtils.vala:56
+#: src/Utils/DisplayUtils.vala:58
 #, c-format
 msgid "%ih"
 msgstr ""
 
 #. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:64
+#: src/Utils/DisplayUtils.vala:66
 msgid "%e %B"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:66
+#: src/Utils/DisplayUtils.vala:68
 msgid "%e %b"
 msgstr ""
 
 #. TRANSLATORS: Full-text date format for tweets from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:71
+#: src/Utils/DisplayUtils.vala:73
 msgid "%e %B %Y"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:73
+#: src/Utils/DisplayUtils.vala:75
 msgid "%e %b %y"
+msgstr ""
+
+#: ui/Content/MediaPreviewItem.ui:27
+msgid "Animated GIF"
+msgstr ""
+
+#: ui/Content/MediaPreviewItem.ui:34
+msgid "Video"
 msgstr ""
