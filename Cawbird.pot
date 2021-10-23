@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-10-18 13:18+0200\n"
+"POT-Creation-Date: 2021-10-23 13:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,43 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. Name and descriptions
+#: data/uk.co.ibboard.Cawbird.appdata.xml.in:17
+#: data/uk.co.ibboard.Cawbird.desktop.in:3
+msgid "Cawbird"
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.appdata.xml.in:18
+msgid "Your window to the social world"
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.appdata.xml.in:20
+msgid ""
+"Cawbird is a client for the short-text social networks Twitter and Mastodon."
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.appdata.xml.in:21
+msgid "TODO: Add the rest of the description."
+msgstr ""
+
+#. Developer
+#: data/uk.co.ibboard.Cawbird.appdata.xml.in:25
+msgid "IBBoard"
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.desktop.in:4
+msgid "Twitter Client"
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.desktop.in:5
+msgid "A window to the social world"
+msgstr ""
+
+#. TRANSLATORS: Search terms to find this application, separated by semicolons. The list must end with a semicolon!
+#: data/uk.co.ibboard.Cawbird.desktop.in:7
+msgid "twitter;"
+msgstr ""
 
 #. Hint for the user where the post can be opened in the browser
 #: src/Content/PostDisplay.vala:113

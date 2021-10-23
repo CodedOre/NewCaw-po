@@ -6,7 +6,7 @@ project(
 
 # Fail if not a subproject of Cawbird
 if not meson.is_subproject()
-    message('WARNING: This project is only intended to be used as a subproject!')
+    message('WARNING: This project is only intended to be used as a subproject for Cawbird!')
 endif
 
 # Load meson modules
