@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-10-23 13:15+0200\n"
+"POT-Creation-Date: 2021-11-12 12:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,12 +33,8 @@ msgid ""
 "Cawbird is a client for the short-text social networks Twitter and Mastodon."
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml.in:21
-msgid "TODO: Add the rest of the description."
-msgstr ""
-
 #. Developer
-#: data/uk.co.ibboard.Cawbird.appdata.xml.in:25
+#: data/uk.co.ibboard.Cawbird.appdata.xml.in:24
 msgid "IBBoard"
 msgstr ""
 
@@ -55,14 +51,12 @@ msgstr ""
 msgid "twitter;"
 msgstr ""
 
-#. Hint for the user where the post can be opened in the browser
-#: src/Content/PostDisplay.vala:113
+#: src/Content/PostDisplay.vala:116
 #, c-format
 msgid "Open on %s"
 msgstr ""
 
-#. Add date and source to info label
-#: src/Content/PostDisplay.vala:123
+#: src/Content/PostDisplay.vala:129
 #, c-format
 msgid "%s using %s"
 msgstr ""
@@ -91,7 +85,6 @@ msgstr[1] ""
 msgid "%ih"
 msgstr ""
 
-#. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
 #: src/Utils/DisplayUtils.vala:66
 msgid "%e %B"
@@ -110,10 +103,10 @@ msgstr ""
 msgid "%e %b %y"
 msgstr ""
 
-#: ui/Content/MediaPreviewItem.ui:27
+#: ui/Content/MediaPreviewItem.ui:32
 msgid "Animated GIF"
 msgstr ""
 
-#: ui/Content/MediaPreviewItem.ui:34
+#: ui/Content/MediaPreviewItem.ui:39
 msgid "Video"
 msgstr ""
