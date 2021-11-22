@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-11-12 12:51+0100\n"
+"POT-Creation-Date: 2021-11-22 15:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,12 +51,12 @@ msgstr ""
 msgid "twitter;"
 msgstr ""
 
-#: src/Content/PostDisplay.vala:116
+#: src/Content/PostDisplay.vala:145
 #, c-format
 msgid "Open on %s"
 msgstr ""
 
-#: src/Content/PostDisplay.vala:129
+#: src/Content/PostDisplay.vala:163
 #, c-format
 msgid "%s using %s"
 msgstr ""
@@ -103,10 +103,22 @@ msgstr ""
 msgid "%e %b %y"
 msgstr ""
 
-#: ui/Content/MediaPreviewItem.ui:32
+#: ui/Media/MediaPreviewItem.ui:31
 msgid "Animated GIF"
 msgstr ""
 
-#: ui/Content/MediaPreviewItem.ui:39
+#: ui/Media/MediaPreviewItem.ui:38
 msgid "Video"
+msgstr ""
+
+#: ui/Widgets/BadgesBox.ui:20
+msgid "Verified User"
+msgstr ""
+
+#: ui/Widgets/BadgesBox.ui:36
+msgid "Bot Account"
+msgstr ""
+
+#: ui/Widgets/BadgesBox.ui:52
+msgid "Protected User"
 msgstr ""

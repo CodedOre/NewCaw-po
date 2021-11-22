@@ -3,4 +3,5 @@ data/uk.co.ibboard.Cawbird.desktop.in
 data/uk.co.ibboard.Cawbird.gschema.xml
 src/Content/PostDisplay.vala
 src/Utils/DisplayUtils.vala
-ui/Content/MediaPreviewItem.ui
+ui/Media/MediaPreviewItem.ui
+ui/Widgets/BadgesBox.ui
