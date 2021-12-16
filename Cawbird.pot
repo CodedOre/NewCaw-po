@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-11-22 15:11+0100\n"
+"POT-Creation-Date: 2021-12-16 15:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,45 +61,68 @@ msgstr ""
 msgid "%s using %s"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:46
+#: src/Content/ProfileDisplay.vala:75
+#, c-format
+msgid "<b>%i</b>  Following"
+msgstr ""
+
+#: src/Content/ProfileDisplay.vala:76
+#, c-format
+msgid "<b>%i</b>  Followers"
+msgstr ""
+
+#: src/Content/ProfileDisplay.vala:81
+#, c-format
+msgid "Joined %s"
+msgstr ""
+
+#: src/Content/ProfileDisplay.vala:97
+msgid "Website"
+msgstr ""
+
+#: src/Content/ProfileDisplay.vala:101
+msgid "Location"
+msgstr ""
+
+#: src/Utils/DisplayUtils.vala:47
 #, c-format
 msgid "%i minute ago"
 msgid_plural "%i minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Utils/DisplayUtils.vala:48
+#: src/Utils/DisplayUtils.vala:49
 #, c-format
 msgid "%im"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:56
+#: src/Utils/DisplayUtils.vala:57
 #, c-format
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Utils/DisplayUtils.vala:58
+#: src/Utils/DisplayUtils.vala:59
 #, c-format
 msgid "%ih"
 msgstr ""
 
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:66
+#: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:68
+#: src/Utils/DisplayUtils.vala:69
 msgid "%e %b"
 msgstr ""
 
 #. TRANSLATORS: Full-text date format for tweets from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:73
+#: src/Utils/DisplayUtils.vala:74
 msgid "%e %B %Y"
 msgstr ""
 
-#: src/Utils/DisplayUtils.vala:75
+#: src/Utils/DisplayUtils.vala:76
 msgid "%e %b %y"
 msgstr ""
 

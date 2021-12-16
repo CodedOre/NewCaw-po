@@ -2,6 +2,7 @@ data/uk.co.ibboard.Cawbird.appdata.xml.in
 data/uk.co.ibboard.Cawbird.desktop.in
 data/uk.co.ibboard.Cawbird.gschema.xml
 src/Content/PostDisplay.vala
+src/Content/ProfileDisplay.vala
 src/Utils/DisplayUtils.vala
 ui/Media/MediaPreviewItem.ui
 ui/Widgets/BadgesBox.ui

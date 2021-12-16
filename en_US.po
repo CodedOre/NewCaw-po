@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-11-22 15:11+0100\n"
+"POT-Creation-Date: 2021-12-16 15:30+0100\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -61,46 +61,69 @@ msgstr "Open on %s"
 msgid "%s using %s"
 msgstr "%s using %s"
 
-#: src/Utils/DisplayUtils.vala:46
+#: src/Content/ProfileDisplay.vala:75
+#, c-format
+msgid "<b>%i</b>  Following"
+msgstr "<b>%i</b>  Following"
+
+#: src/Content/ProfileDisplay.vala:76
+#, c-format
+msgid "<b>%i</b>  Followers"
+msgstr "<b>%i</b>  Followers"
+
+#: src/Content/ProfileDisplay.vala:81
+#, c-format
+msgid "Joined %s"
+msgstr "Joined %s"
+
+#: src/Content/ProfileDisplay.vala:97
+msgid "Website"
+msgstr "Website"
+
+#: src/Content/ProfileDisplay.vala:101
+msgid "Location"
+msgstr "Location"
+
+#: src/Utils/DisplayUtils.vala:47
 #, c-format
 msgid "%i minute ago"
 msgid_plural "%i minutes ago"
 msgstr[0] "%i minute ago"
 msgstr[1] "%i minutes ago"
 
-#: src/Utils/DisplayUtils.vala:48
+#: src/Utils/DisplayUtils.vala:49
 #, c-format
 msgid "%im"
 msgstr "%im"
 
-#: src/Utils/DisplayUtils.vala:56
+#: src/Utils/DisplayUtils.vala:57
 #, c-format
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
 msgstr[0] "%i hour ago"
 msgstr[1] "%i hours ago"
 
-#: src/Utils/DisplayUtils.vala:58
+#: src/Utils/DisplayUtils.vala:59
 #, c-format
 msgid "%ih"
 msgstr "%ih"
 
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:66
+#: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
 msgstr "%e %B"
 
-#: src/Utils/DisplayUtils.vala:68
+#: src/Utils/DisplayUtils.vala:69
 #, fuzzy
 msgid "%e %b"
 msgstr "%e %B"
 
 #. TRANSLATORS: Full-text date format for tweets from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:73
+#: src/Utils/DisplayUtils.vala:74
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
-#: src/Utils/DisplayUtils.vala:75
+#: src/Utils/DisplayUtils.vala:76
 #, fuzzy
 msgid "%e %b %y"
 msgstr "%e %B %Y"
