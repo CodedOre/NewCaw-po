@@ -1,5 +1,5 @@
 # English translations for Cawbird package.
-# Copyright (C) 2021 2021 Frederick Schenk
+# Copyright (C) 2021-2022 2021 Frederick Schenk
 # This file is distributed under the same license as the Cawbird package.
 # Automatically generated, 2021.
 #
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2021-12-16 15:30+0100\n"
+"POT-Creation-Date: 2022-03-21 14:55+0100\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -51,36 +51,71 @@ msgstr "A window to the social world"
 msgid "twitter;"
 msgstr "twitter;"
 
+#: data/uk.co.ibboard.Cawbird.gschema.xml:6
+msgid "Display user avatars round."
+msgstr "Display user avatars round."
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:15
+msgid ""
+"A short list of accounts connected with the Mastodon platform, categorized "
+"into the servers there located at."
+msgstr ""
+"A short list of accounts connected with the Mastodon platform, categorized "
+"into the servers there located at."
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:22
+msgid "A short list of accounts connected with the Twitter platform."
+msgstr "A short list of accounts connected with the Twitter platform."
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:28
+msgid "A short list of accounts connected with the TwitterLegacy platform."
+msgstr "A short list of accounts connected with the TwitterLegacy platform."
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:37
+msgid "Use the profile header as the header bar in ProfileDisplay."
+msgstr "Use the profile header as the header bar in ProfileDisplay."
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:43
+msgid "Custom client tokens to authenticate with Twitter using OAuth 1.0a."
+msgstr "Custom client tokens to authenticate with Twitter using OAuth 1.0a."
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:49
+msgid "Custom client tokens to authenticate with Twitter using OAuth 2.0."
+msgstr "Custom client tokens to authenticate with Twitter using OAuth 2.0."
+
+#. Hint for the user where the post can be opened in the browser
 #: src/Content/PostDisplay.vala:145
 #, c-format
 msgid "Open on %s"
 msgstr "Open on %s"
 
-#: src/Content/PostDisplay.vala:163
+#. Add date and source to info label
+#: src/Content/PostDisplay.vala:161
 #, c-format
 msgid "%s using %s"
 msgstr "%s using %s"
 
-#: src/Content/ProfileDisplay.vala:75
+#. Set the labels for metrics
+#: src/Content/UserDisplay.vala:75
 #, c-format
 msgid "<b>%i</b>  Following"
 msgstr "<b>%i</b>  Following"
 
-#: src/Content/ProfileDisplay.vala:76
+#: src/Content/UserDisplay.vala:76
 #, c-format
 msgid "<b>%i</b>  Followers"
 msgstr "<b>%i</b>  Followers"
 
-#: src/Content/ProfileDisplay.vala:81
+#: src/Content/UserDisplay.vala:81
 #, c-format
 msgid "Joined %s"
 msgstr "Joined %s"
 
-#: src/Content/ProfileDisplay.vala:97
+#: src/Content/UserDisplay.vala:97
 msgid "Website"
 msgstr "Website"
 
-#: src/Content/ProfileDisplay.vala:101
+#: src/Content/UserDisplay.vala:101
 msgid "Location"
 msgstr "Location"
 
@@ -108,13 +143,13 @@ msgstr[1] "%i hours ago"
 msgid "%ih"
 msgstr "%ih"
 
+#. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
 #: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
 msgstr "%e %B"
 
 #: src/Utils/DisplayUtils.vala:69
-#, fuzzy
 msgid "%e %b"
 msgstr "%e %B"
 
@@ -124,7 +159,6 @@ msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
 #: src/Utils/DisplayUtils.vala:76
-#, fuzzy
 msgid "%e %b %y"
 msgstr "%e %B %Y"
 
