@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-03-21 14:55+0100\n"
+"POT-Creation-Date: 2022-03-21 15:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,6 +117,39 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
+#. Update the back button
+#: src/System/Authentication/AuthView.vala:87
+#: ui/System/Authentication/AuthView.ui:17
+msgid "Cancel"
+msgstr ""
+
+#. Update the back button
+#: src/System/Authentication/AuthView.vala:104
+msgid "Back"
+msgstr ""
+
+#: src/System/Authentication/CodePage.vala:151
+msgid "No code set!"
+msgstr ""
+
+#: src/System/Authentication/CodePage.vala:162
+msgid "Authentication failed."
+msgstr ""
+
+#: src/System/Authentication/ServerPage.vala:160
+msgid "No domain set!"
+msgstr ""
+
+#: src/System/Authentication/ServerPage.vala:173
+#: src/System/Authentication/ServerPage.vala:187
+msgid "Could not authenticate at server."
+msgstr ""
+
+#. Error if no Mastodon backend available
+#: src/System/Authentication/ServerPage.vala:194
+msgid "Why are you even here? There is no Mastodon backend!"
+msgstr ""
+
 #: src/Utils/DisplayUtils.vala:47
 #, c-format
 msgid "%i minute ago"
@@ -166,6 +199,59 @@ msgstr ""
 
 #: ui/Media/MediaPreviewItem.ui:38
 msgid "Video"
+msgstr ""
+
+#: ui/System/Authentication/AuthView.ui:23
+msgid "Add Account"
+msgstr ""
+
+#: ui/System/Authentication/BrowserPage.ui:14
+msgid "Authenticate Cawbird"
+msgstr ""
+
+#: ui/System/Authentication/BrowserPage.ui:15
+msgid "Continue the authentication in your browser."
+msgstr ""
+
+#: ui/System/Authentication/BrowserPage.ui:19
+#: ui/System/Authentication/FinalPage.ui:17
+msgid "Continue"
+msgstr ""
+
+#: ui/System/Authentication/CodePage.ui:17
+msgid "Enter the Passcode"
+msgstr ""
+
+#: ui/System/Authentication/LoadPage.ui:14
+msgid "Finishing Authentication..."
+msgstr ""
+
+#: ui/System/Authentication/FinalPage.ui:14
+msgid "Authentication Complete!"
+msgstr ""
+
+#: ui/System/Authentication/ServerPage.ui:17
+msgid "Set your Server"
+msgstr ""
+
+#: ui/System/Authentication/ServerPage.ui:18
+msgid "Set the server to your Mastodon instance"
+msgstr ""
+
+#: ui/System/Authentication/StartPage.ui:14
+msgid "Add an Account"
+msgstr ""
+
+#: ui/System/Authentication/StartPage.ui:26
+msgid "Add Twitter Account (New API)"
+msgstr ""
+
+#: ui/System/Authentication/StartPage.ui:41
+msgid "Add Twitter Account"
+msgstr ""
+
+#: ui/System/Authentication/StartPage.ui:54
+msgid "Add Mastodon Account"
 msgstr ""
 
 #: ui/Widgets/BadgesBox.ui:20

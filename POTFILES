@@ -3,6 +3,16 @@ data/uk.co.ibboard.Cawbird.desktop.in
 data/uk.co.ibboard.Cawbird.gschema.xml
 src/Content/PostDisplay.vala
 src/Content/UserDisplay.vala
+src/System/Authentication/AuthView.vala
+src/System/Authentication/CodePage.vala
+src/System/Authentication/ServerPage.vala
 src/Utils/DisplayUtils.vala
 ui/Media/MediaPreviewItem.ui
+ui/System/Authentication/AuthView.ui
+ui/System/Authentication/BrowserPage.ui
+ui/System/Authentication/CodePage.ui
+ui/System/Authentication/LoadPage.ui
+ui/System/Authentication/FinalPage.ui
+ui/System/Authentication/ServerPage.ui
+ui/System/Authentication/StartPage.ui
 ui/Widgets/BadgesBox.ui
