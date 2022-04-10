@@ -1,6 +1,7 @@
 data/uk.co.ibboard.Cawbird.appdata.xml.in
 data/uk.co.ibboard.Cawbird.desktop.in
 data/uk.co.ibboard.Cawbird.gschema.xml
+src/Content/CollectionList.vala
 src/Content/PostDisplay.vala
 src/Content/UserDisplay.vala
 src/System/Authentication/AuthView.vala
@@ -8,6 +9,7 @@ src/System/Authentication/CodePage.vala
 src/System/Authentication/ServerPage.vala
 src/Utils/DisplayUtils.vala
 ui/Media/MediaPreviewItem.ui
+ui/Content/CollectionList.ui
 ui/System/Authentication/AuthView.ui
 ui/System/Authentication/BrowserPage.ui
 ui/System/Authentication/CodePage.ui

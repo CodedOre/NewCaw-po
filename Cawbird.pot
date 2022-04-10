@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-03-21 15:08+0100\n"
+"POT-Creation-Date: 2022-04-10 17:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,30 +70,31 @@ msgid "A short list of accounts connected with the TwitterLegacy platform."
 msgstr ""
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:37
-msgid "Use the profile header as the header bar in ProfileDisplay."
-msgstr ""
-
-#: data/uk.co.ibboard.Cawbird.gschema.xml:43
 msgid "Custom client tokens to authenticate with Twitter using OAuth 1.0a."
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:49
+#: data/uk.co.ibboard.Cawbird.gschema.xml:43
 msgid "Custom client tokens to authenticate with Twitter using OAuth 2.0."
 msgstr ""
 
-#. Hint for the user where the post can be opened in the browser
+#: src/Content/CollectionList.vala:60
+msgid "Tweets"
+msgstr ""
+
+#: src/Content/CollectionList.vala:61
+msgid "Retweets"
+msgstr ""
+
 #: src/Content/PostDisplay.vala:145
 #, c-format
 msgid "Open on %s"
 msgstr ""
 
-#. Add date and source to info label
 #: src/Content/PostDisplay.vala:161
 #, c-format
 msgid "%s using %s"
 msgstr ""
 
-#. Set the labels for metrics
 #: src/Content/UserDisplay.vala:75
 #, c-format
 msgid "<b>%i</b>  Following"
@@ -117,13 +118,11 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#. Update the back button
 #: src/System/Authentication/AuthView.vala:87
 #: ui/System/Authentication/AuthView.ui:17
 msgid "Cancel"
 msgstr ""
 
-#. Update the back button
 #: src/System/Authentication/AuthView.vala:104
 msgid "Back"
 msgstr ""
@@ -140,13 +139,12 @@ msgstr ""
 msgid "No domain set!"
 msgstr ""
 
-#: src/System/Authentication/ServerPage.vala:173
-#: src/System/Authentication/ServerPage.vala:187
+#: src/System/Authentication/ServerPage.vala:178
+#: src/System/Authentication/ServerPage.vala:195
 msgid "Could not authenticate at server."
 msgstr ""
 
-#. Error if no Mastodon backend available
-#: src/System/Authentication/ServerPage.vala:194
+#: src/System/Authentication/ServerPage.vala:202
 msgid "Why are you even here? There is no Mastodon backend!"
 msgstr ""
 
@@ -174,7 +172,6 @@ msgstr[1] ""
 msgid "%ih"
 msgstr ""
 
-#. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
 #: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
@@ -199,6 +196,22 @@ msgstr ""
 
 #: ui/Media/MediaPreviewItem.ui:38
 msgid "Video"
+msgstr ""
+
+#: ui/Content/CollectionList.ui:20
+msgid "Posts"
+msgstr ""
+
+#: ui/Content/CollectionList.ui:25
+msgid "Replies"
+msgstr ""
+
+#: ui/Content/CollectionList.ui:31
+msgid "Reposts"
+msgstr ""
+
+#: ui/Content/CollectionList.ui:37
+msgid "Media"
 msgstr ""
 
 #: ui/System/Authentication/AuthView.ui:23
