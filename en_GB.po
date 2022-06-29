@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-04-10 17:58+0200\n"
+"POT-Creation-Date: 2022-06-29 21:27+0200\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,38 +18,45 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Name and descriptions
-#: data/uk.co.ibboard.Cawbird.appdata.xml.in:17
-#: data/uk.co.ibboard.Cawbird.desktop.in:3
+#: data/uk.co.ibboard.Cawbird.appdata.xml:17
+#: data/uk.co.ibboard.Cawbird.desktop:3
 msgid "Cawbird"
 msgstr "Cawbird"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml.in:18
+#: data/uk.co.ibboard.Cawbird.appdata.xml:18
 msgid "Your window to the social world"
 msgstr "Your window to the social world"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml.in:20
+#: data/uk.co.ibboard.Cawbird.appdata.xml:20
 msgid ""
 "Cawbird is a client for the short-text social networks Twitter and Mastodon."
 msgstr ""
 "Cawbird is a client for the short-text social networks Twitter and Mastodon."
 
 #. Developer
-#: data/uk.co.ibboard.Cawbird.appdata.xml.in:24
+#: data/uk.co.ibboard.Cawbird.appdata.xml:24
 msgid "IBBoard"
 msgstr "IBBoard"
 
-#: data/uk.co.ibboard.Cawbird.desktop.in:4
+#: data/uk.co.ibboard.Cawbird.desktop:4
+#: data/uk.co.ibboard.Cawbird.Devel.desktop:4
 msgid "Twitter Client"
 msgstr "Twitter Client"
 
-#: data/uk.co.ibboard.Cawbird.desktop.in:5
+#: data/uk.co.ibboard.Cawbird.desktop:5
+#: data/uk.co.ibboard.Cawbird.Devel.desktop:5
 msgid "A window to the social world"
 msgstr "A window to the social world"
 
 #. TRANSLATORS: Search terms to find this application, separated by semicolons. The list must end with a semicolon!
-#: data/uk.co.ibboard.Cawbird.desktop.in:7
+#: data/uk.co.ibboard.Cawbird.desktop:7
+#: data/uk.co.ibboard.Cawbird.Devel.desktop:7
 msgid "twitter;"
 msgstr "twitter;"
+
+#: data/uk.co.ibboard.Cawbird.Devel.desktop:3
+msgid "Cawbird (Development Version)"
+msgstr "Cawbird (Development Version)"
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:6
 msgid "Display user avatars round."
@@ -72,31 +79,34 @@ msgid "A short list of accounts connected with the TwitterLegacy platform."
 msgstr "A short list of accounts connected with the TwitterLegacy platform."
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:37
-msgid "Custom client tokens to authenticate with Twitter using OAuth 1.0a."
-msgstr "Custom client tokens to authenticate with Twitter using OAuth 1.0a."
+msgid "The Size for the MediaDialog."
+msgstr "The Size for the MediaDialog."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:43
-msgid "Custom client tokens to authenticate with Twitter using OAuth 2.0."
-msgstr "Custom client tokens to authenticate with Twitter using OAuth 2.0."
+#: data/uk.co.ibboard.Cawbird.gschema.xml:46
+msgid "A custom client key to authenticate Cawbird with Twitter."
+msgstr "A custom client key to authenticate Cawbird with Twitter."
 
-#: src/Content/CollectionList.vala:60
+#: src/Content/CollectionList.vala:59
 msgid "Tweets"
 msgstr "Tweets"
 
-#: src/Content/CollectionList.vala:61
+#: src/Content/CollectionList.vala:60
 msgid "Retweets"
 msgstr "Retweets"
 
-#: src/Content/PostDisplay.vala:145
+#. Hint for the user where the post can be opened in the browser
+#: src/Content/PostDisplay.vala:166
 #, c-format
 msgid "Open on %s"
 msgstr "Open on %s"
 
-#: src/Content/PostDisplay.vala:161
+#. Add date and source to info label
+#: src/Content/PostDisplay.vala:182
 #, c-format
 msgid "%s using %s"
 msgstr "%s using %s"
 
+#. Set the labels for metrics
 #: src/Content/UserDisplay.vala:75
 #, c-format
 msgid "<b>%i</b>  Following"
@@ -120,11 +130,13 @@ msgstr "Website"
 msgid "Location"
 msgstr "Location"
 
+#. Update the back button
 #: src/System/Authentication/AuthView.vala:87
 #: ui/System/Authentication/AuthView.ui:17
 msgid "Cancel"
 msgstr "Cancel"
 
+#. Update the back button
 #: src/System/Authentication/AuthView.vala:104
 msgid "Back"
 msgstr "Back"
@@ -146,6 +158,7 @@ msgstr "No domain set!"
 msgid "Could not authenticate at server."
 msgstr "Could not authenticate at server."
 
+#. Error if no Mastodon backend available
 #: src/System/Authentication/ServerPage.vala:202
 msgid "Why are you even here? There is no Mastodon backend!"
 msgstr "Why are you even here? There is no Mastodon backend!"
@@ -174,6 +187,7 @@ msgstr[1] "%i hours ago"
 msgid "%ih"
 msgstr "%ih"
 
+#. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
 #: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
@@ -258,14 +272,10 @@ msgid "Add an Account"
 msgstr "Add an Account"
 
 #: ui/System/Authentication/StartPage.ui:26
-msgid "Add Twitter Account (New API)"
-msgstr "Add Twitter Account (New API)"
-
-#: ui/System/Authentication/StartPage.ui:41
 msgid "Add Twitter Account"
 msgstr "Add Twitter Account"
 
-#: ui/System/Authentication/StartPage.ui:54
+#: ui/System/Authentication/StartPage.ui:39
 msgid "Add Mastodon Account"
 msgstr "Add Mastodon Account"
 

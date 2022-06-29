@@ -1,5 +1,6 @@
-data/uk.co.ibboard.Cawbird.appdata.xml.in
-data/uk.co.ibboard.Cawbird.desktop.in
+data/uk.co.ibboard.Cawbird.appdata.xml
+data/uk.co.ibboard.Cawbird.desktop
+data/uk.co.ibboard.Cawbird.Devel.desktop
 data/uk.co.ibboard.Cawbird.gschema.xml
 src/Content/CollectionList.vala
 src/Content/PostDisplay.vala
