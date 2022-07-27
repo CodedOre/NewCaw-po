@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-06-29 21:27+0200\n"
+"POT-Creation-Date: 2022-07-27 14:50+0200\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -38,6 +38,14 @@ msgstr ""
 msgid "IBBoard"
 msgstr "IBBoard"
 
+#: data/uk.co.ibboard.Cawbird.appdata.xml:52
+msgid "Screenshot caption"
+msgstr "Screenshot caption"
+
+#: data/uk.co.ibboard.Cawbird.appdata.xml:60
+msgid "This is a development build for the upcoming 2.0 release of Cawbird!"
+msgstr "This is a development build for the upcoming 2.0 release of Cawbird!"
+
 #: data/uk.co.ibboard.Cawbird.desktop:4
 #: data/uk.co.ibboard.Cawbird.Devel.desktop:4
 msgid "Twitter Client"
@@ -56,35 +64,51 @@ msgstr "twitter;"
 
 #: data/uk.co.ibboard.Cawbird.Devel.desktop:3
 msgid "Cawbird (Development Version)"
-msgstr ""
+msgstr "Cawbird (Development Version)"
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:6
 msgid "Display user avatars round."
 msgstr "Display user avatars round."
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:15
-msgid ""
-"A short list of accounts connected with the Mastodon platform, categorized "
-"into the servers there located at."
-msgstr ""
-"A short list of accounts connected with the Mastodon platform, categorized "
-"into the servers there located at."
-
-#: data/uk.co.ibboard.Cawbird.gschema.xml:22
-msgid "A short list of accounts connected with the Twitter platform."
-msgstr "A short list of accounts connected with the Twitter platform."
-
-#: data/uk.co.ibboard.Cawbird.gschema.xml:28
-msgid "A short list of accounts connected with the TwitterLegacy platform."
-msgstr "A short list of accounts connected with the TwitterLegacy platform."
-
-#: data/uk.co.ibboard.Cawbird.gschema.xml:37
 msgid "The Size for the MediaDialog."
 msgstr "The Size for the MediaDialog."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:46
+#: data/uk.co.ibboard.Cawbird.gschema.xml:24
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr "A custom client key to authenticate Cawbird with Twitter."
+
+#: src/Authentication/AuthView.vala:82 ui/Authentication/AuthView.blp:15
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/Authentication/AuthView.vala:99
+msgid "Back"
+msgstr "Back"
+
+#: src/Authentication/CodePage.vala:176
+msgid "No code set!"
+msgstr "No code set!"
+
+#: src/Authentication/CodePage.vala:187
+msgid "Authentication failed."
+msgstr "Authentication failed."
+
+#: src/Authentication/ServerPage.vala:185
+msgid "No domain set!"
+msgstr "No domain set!"
+
+#: src/Authentication/ServerPage.vala:204
+msgid "Could not find server."
+msgstr "Could not find server."
+
+#: src/Authentication/ServerPage.vala:221
+msgid "Could not authenticate at server."
+msgstr "Could not authenticate at server."
+
+#: src/Authentication/ServerPage.vala:228
+msgid "Why are you even here? There is no Mastodon backend!"
+msgstr "Why are you even here? There is no Mastodon backend!"
 
 #: src/Content/CollectionList.vala:59
 msgid "Tweets"
@@ -94,19 +118,16 @@ msgstr "Tweets"
 msgid "Retweets"
 msgstr "Retweets"
 
-#. Hint for the user where the post can be opened in the browser
 #: src/Content/PostDisplay.vala:166
 #, c-format
 msgid "Open on %s"
 msgstr "Open on %s"
 
-#. Add date and source to info label
 #: src/Content/PostDisplay.vala:182
 #, c-format
 msgid "%s using %s"
 msgstr "%s using %s"
 
-#. Set the labels for metrics
 #: src/Content/UserDisplay.vala:75
 #, c-format
 msgid "<b>%i</b>  Following"
@@ -129,39 +150,6 @@ msgstr "Website"
 #: src/Content/UserDisplay.vala:101
 msgid "Location"
 msgstr "Location"
-
-#. Update the back button
-#: src/System/Authentication/AuthView.vala:87
-#: ui/System/Authentication/AuthView.ui:17
-msgid "Cancel"
-msgstr "Cancel"
-
-#. Update the back button
-#: src/System/Authentication/AuthView.vala:104
-msgid "Back"
-msgstr "Back"
-
-#: src/System/Authentication/CodePage.vala:151
-msgid "No code set!"
-msgstr "No code set!"
-
-#: src/System/Authentication/CodePage.vala:162
-msgid "Authentication failed."
-msgstr "Authentication failed."
-
-#: src/System/Authentication/ServerPage.vala:160
-msgid "No domain set!"
-msgstr "No domain set!"
-
-#: src/System/Authentication/ServerPage.vala:178
-#: src/System/Authentication/ServerPage.vala:195
-msgid "Could not authenticate at server."
-msgstr "Could not authenticate at server."
-
-#. Error if no Mastodon backend available
-#: src/System/Authentication/ServerPage.vala:202
-msgid "Why are you even here? There is no Mastodon backend!"
-msgstr "Why are you even here? There is no Mastodon backend!"
 
 #: src/Utils/DisplayUtils.vala:47
 #, c-format
@@ -187,7 +175,6 @@ msgstr[1] "%i hours ago"
 msgid "%ih"
 msgstr "%ih"
 
-#. Display time diff for longer periods
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
 #: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
@@ -206,87 +193,102 @@ msgstr "%e %B %Y"
 msgid "%e %b %y"
 msgstr "%e %B %Y"
 
-#: ui/Media/MediaPreviewItem.ui:31
-msgid "Animated GIF"
-msgstr "Animated GIF"
+#: src/Windows/MainWindow.vala:140
+msgid "Translators: Add your name here!"
+msgstr "Translators: Add your name here!"
 
-#: ui/Media/MediaPreviewItem.ui:38
-msgid "Video"
-msgstr "Video"
+#: src/Windows/MainWindow.vala:142
+msgid "Based on Corebird, created by"
+msgstr "Based on Corebird, created by"
 
-#: ui/Content/CollectionList.ui:20
-msgid "Posts"
-msgstr "Posts"
-
-#: ui/Content/CollectionList.ui:25
-msgid "Replies"
-msgstr "Replies"
-
-#: ui/Content/CollectionList.ui:31
-msgid "Reposts"
-msgstr "Reposts"
-
-#: ui/Content/CollectionList.ui:37
-msgid "Media"
-msgstr "Media"
-
-#: ui/System/Authentication/AuthView.ui:23
+#: ui/Authentication/AuthView.blp:21
 msgid "Add Account"
 msgstr "Add Account"
 
-#: ui/System/Authentication/BrowserPage.ui:14
+#: ui/Authentication/BrowserPage.blp:10
 msgid "Authenticate Cawbird"
 msgstr "Authenticate Cawbird"
 
-#: ui/System/Authentication/BrowserPage.ui:15
+#: ui/Authentication/BrowserPage.blp:11
 msgid "Continue the authentication in your browser."
 msgstr "Continue the authentication in your browser."
 
-#: ui/System/Authentication/BrowserPage.ui:19
-#: ui/System/Authentication/FinalPage.ui:17
+#: ui/Authentication/BrowserPage.blp:15 ui/Authentication/FinalPage.blp:13
 msgid "Continue"
 msgstr "Continue"
 
-#: ui/System/Authentication/CodePage.ui:17
+#: ui/Authentication/CodePage.blp:12
 msgid "Enter the Passcode"
 msgstr "Enter the Passcode"
 
-#: ui/System/Authentication/LoadPage.ui:14
+#: ui/Authentication/CodePage.blp:25
+msgid "Authentication Code"
+msgstr "Authentication Code"
+
+#: ui/Authentication/LoadPage.blp:10
 msgid "Finishing Authentication..."
 msgstr "Finishing Authentication..."
 
-#: ui/System/Authentication/FinalPage.ui:14
+#: ui/Authentication/FinalPage.blp:10
 msgid "Authentication Complete!"
 msgstr "Authentication Complete!"
 
-#: ui/System/Authentication/ServerPage.ui:17
+#: ui/Authentication/ServerPage.blp:12
 msgid "Set your Server"
 msgstr "Set your Server"
 
-#: ui/System/Authentication/ServerPage.ui:18
+#: ui/Authentication/ServerPage.blp:13
 msgid "Set the server to your Mastodon instance"
 msgstr "Set the server to your Mastodon instance"
 
-#: ui/System/Authentication/StartPage.ui:14
+#: ui/Authentication/ServerPage.blp:26
+msgid "Server Domain"
+msgstr "Server Domain"
+
+#: ui/Authentication/StartPage.blp:10
 msgid "Add an Account"
 msgstr "Add an Account"
 
-#: ui/System/Authentication/StartPage.ui:26
+#: ui/Authentication/StartPage.blp:22
 msgid "Add Twitter Account"
 msgstr "Add Twitter Account"
 
-#: ui/System/Authentication/StartPage.ui:39
+#: ui/Authentication/StartPage.blp:34
 msgid "Add Mastodon Account"
 msgstr "Add Mastodon Account"
 
-#: ui/Widgets/BadgesBox.ui:20
+#: ui/Media/MediaPreviewItem.blp:36
+msgid "Animated GIF"
+msgstr "Animated GIF"
+
+#: ui/Media/MediaPreviewItem.blp:42
+msgid "Video"
+msgstr "Video"
+
+#: ui/Content/CollectionList.blp:17
+msgid "Posts"
+msgstr "Posts"
+
+#: ui/Content/CollectionList.blp:21
+msgid "Replies"
+msgstr "Replies"
+
+#: ui/Content/CollectionList.blp:26
+msgid "Reposts"
+msgstr "Reposts"
+
+#: ui/Content/CollectionList.blp:31
+msgid "Media"
+msgstr "Media"
+
+#: ui/Widgets/BadgesBox.blp:15
 msgid "Verified User"
 msgstr "Verified User"
 
-#: ui/Widgets/BadgesBox.ui:36
+#: ui/Widgets/BadgesBox.blp:26
 msgid "Bot Account"
 msgstr "Bot Account"
 
-#: ui/Widgets/BadgesBox.ui:52
+#: ui/Widgets/BadgesBox.blp:37
 msgid "Protected User"
 msgstr "Protected User"
