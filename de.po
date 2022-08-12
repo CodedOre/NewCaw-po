@@ -178,7 +178,7 @@ msgstr "%ih"
 #. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
 #: src/Utils/DisplayUtils.vala:67
 msgid "%e %B"
-msgstr "%e. %B"
+msgstr "%e. %b"
 
 #: src/Utils/DisplayUtils.vala:69
 msgid "%e %b"
@@ -191,7 +191,7 @@ msgstr "%e. %B %Y"
 
 #: src/Utils/DisplayUtils.vala:76
 msgid "%e %b %y"
-msgstr "%e. %B %y"
+msgstr "%e. %b %y"
 
 #: src/Windows/MainWindow.vala:140
 msgid "Translators: Add your name here!"
