@@ -9,27 +9,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-07-27 14:50+0200\n"
-"PO-Revision-Date: 2022-08-19 00:32+0200\n"
+"POT-Creation-Date: 2022-08-19 12:07+0200\n"
+"PO-Revision-Date: 2022-08-19 12:55+0200\n"
 "Last-Translator: A. Pinsard <apinsard@protonmail.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Name and descriptions
-#: data/uk.co.ibboard.Cawbird.appdata.xml:17
-#: data/uk.co.ibboard.Cawbird.desktop:3
-msgid "Cawbird"
-msgstr "Cawbird"
-
+#. TRANSLATORS: Set by meson, do not translate
 #: data/uk.co.ibboard.Cawbird.appdata.xml:18
+#: data/uk.co.ibboard.Cawbird.desktop:4
+msgid "@app_name@"
+msgstr "@app_name@"
+
+#: data/uk.co.ibboard.Cawbird.appdata.xml:19
+#: data/uk.co.ibboard.Cawbird.desktop:6
 msgid "Your window to the social world"
 msgstr "Votre fenêtre sur le monde des réseaux sociaux"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:20
+#: data/uk.co.ibboard.Cawbird.appdata.xml:21
 msgid ""
 "Cawbird is a client for the short-text social networks Twitter and Mastodon."
 msgstr ""
@@ -37,53 +39,50 @@ msgstr ""
 "Mastodon."
 
 #. Developer
-#: data/uk.co.ibboard.Cawbird.appdata.xml:24
+#: data/uk.co.ibboard.Cawbird.appdata.xml:25
 msgid "IBBoard"
 msgstr "IBBoard"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:52
+#: data/uk.co.ibboard.Cawbird.appdata.xml:53
 msgid "Screenshot caption"
 msgstr "Légende de la capture d'écran"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:60
+#: data/uk.co.ibboard.Cawbird.appdata.xml:61
 msgid "This is a development build for the upcoming 2.0 release of Cawbird!"
 msgstr ""
 "Ceci est une version de développement pour la sortie prochaine de Cawbird "
 "2.0 !"
 
-#: data/uk.co.ibboard.Cawbird.desktop:4
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:4
+#: data/uk.co.ibboard.Cawbird.desktop:5
 msgid "Twitter Client"
 msgstr "Client Twitter"
 
-#: data/uk.co.ibboard.Cawbird.desktop:5
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:5
-msgid "A window to the social world"
-msgstr "Une fenêtre sur le monde"
-
 #. TRANSLATORS: Search terms to find this application, separated by semicolons. The list must end with a semicolon!
-#: data/uk.co.ibboard.Cawbird.desktop:7
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:7
+#: data/uk.co.ibboard.Cawbird.desktop:8
 msgid "twitter;"
 msgstr "twitter;"
 
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:3
-msgid "Cawbird (Development Version)"
-msgstr "Cawbird (Version de développement)"
-
 #: data/uk.co.ibboard.Cawbird.gschema.xml:6
 msgid "Display user avatars round."
-msgstr "Afficher les photos de profils dans un rond"
+msgstr "Afficher les photos de profils dans un rond."
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:15
 msgid "The Size for the MediaDialog."
-msgstr "La taille pour le dialogue média"
+msgstr "La taille pour le dialogue média."
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:24
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr "Une clé client personnalisée pour autoriser Cawbird auprès de Twitter."
 
-#: src/Authentication/AuthView.vala:82 ui/Authentication/AuthView.blp:15
+#: src/Cawbird.vala:154
+msgid "Translators: Add your name here!"
+msgstr "A. Pinsard"
+
+#: src/Cawbird.vala:171
+msgid "Based on Corebird, created by"
+msgstr "Basé sur Corebird, créé par"
+
+#: src/Authentication/AuthView.vala:82 ui/Authentication/AuthView.blp:19
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -91,44 +90,56 @@ msgstr "Annuler"
 msgid "Back"
 msgstr "Retour"
 
-#: src/Authentication/CodePage.vala:176
+#: src/Authentication/CodePage.vala:155
 msgid "No code set!"
 msgstr "Pas de code défini !"
 
-#: src/Authentication/CodePage.vala:187
+#: src/Authentication/CodePage.vala:166
 msgid "Authentication failed."
-msgstr "Authentification échouée"
+msgstr "Authentification échouée."
 
-#: src/Authentication/ServerPage.vala:185
+#: src/Authentication/ServerPage.vala:164
 msgid "No domain set!"
 msgstr "Pas de domaine défini !"
 
-#: src/Authentication/ServerPage.vala:204
+#: src/Authentication/ServerPage.vala:183
 msgid "Could not find server."
 msgstr "Serveur non trouvé."
 
-#: src/Authentication/ServerPage.vala:221
+#: src/Authentication/ServerPage.vala:200
 msgid "Could not authenticate at server."
 msgstr "L'authentification auprès du serveur a échouée."
 
-#: src/Authentication/ServerPage.vala:228
+#: src/Authentication/ServerPage.vala:207
 msgid "Why are you even here? There is no Mastodon backend!"
 msgstr "Que faites-vous là ? Il n'y a pas de backend pour Mastodon !"
 
-#: src/Content/CollectionList.vala:59
+#: src/Content/CollectionFilter.vala:54
 msgid "Tweets"
 msgstr "Tweets"
 
-#: src/Content/CollectionList.vala:60
+#: src/Content/CollectionFilter.vala:55
 msgid "Retweets"
 msgstr "Retweets"
 
-#: src/Content/PostDisplay.vala:166
+#: src/Content/CollectionFilter.vala:59 ui/Content/CollectionFilter.blp:16
+msgid "Posts"
+msgstr "Publications"
+
+#: src/Content/CollectionFilter.vala:60 ui/Content/CollectionFilter.blp:29
+msgid "Reposts"
+msgstr "Reposts"
+
+#: src/Content/PostActions.vala:62
 #, c-format
 msgid "Open on %s"
 msgstr "Ouvrir sur %s"
 
-#: src/Content/PostDisplay.vala:182
+#: src/Content/PostActions.vala:65
+msgid "Copy Link to Clipboard"
+msgstr "Copier le lien dans le presse-papiers"
+
+#: src/Content/PostItem.vala:120
 #, c-format
 msgid "%s using %s"
 msgstr "%s en utilisant %s"
@@ -198,15 +209,11 @@ msgstr "%e %B %Y"
 msgid "%e %b %y"
 msgstr "%e %b %y"
 
-#: src/Windows/MainWindow.vala:140
-msgid "Translators: Add your name here!"
-msgstr "A. Pinsard"
+#: src/Windows/MediaDialog.vala:76
+msgid "URL to media copied!"
+msgstr "URL du média copiée !"
 
-#: src/Windows/MainWindow.vala:142
-msgid "Based on Corebird, created by"
-msgstr "Basé sur Corebird, créé par "
-
-#: ui/Authentication/AuthView.blp:21
+#: ui/Authentication/AuthView.blp:25
 msgid "Add Account"
 msgstr "Ajouter un compte"
 
@@ -218,9 +225,13 @@ msgstr "Autoriser Cawbird"
 msgid "Continue the authentication in your browser."
 msgstr "Continuez l'autorisation dans votre navigateur web."
 
-#: ui/Authentication/BrowserPage.blp:15 ui/Authentication/FinalPage.blp:13
+#: ui/Authentication/BrowserPage.blp:19 ui/Authentication/FinalPage.blp:13
 msgid "Continue"
 msgstr "Continuer"
+
+#: ui/Authentication/BrowserPage.blp:45
+msgid "Retry Authentication"
+msgstr "Retenter l'authentification"
 
 #: ui/Authentication/CodePage.blp:12
 msgid "Enter the Passcode"
@@ -244,7 +255,7 @@ msgstr "Définissez votre serveur"
 
 #: ui/Authentication/ServerPage.blp:13
 msgid "Set the server to your Mastodon instance"
-msgstr "Définissez votre instance Mastodon comme serveur "
+msgstr "Définissez votre instance Mastodon comme serveur"
 
 #: ui/Authentication/ServerPage.blp:26
 msgid "Server Domain"
@@ -262,29 +273,33 @@ msgstr "Ajouter un compte Twitter"
 msgid "Add Mastodon Account"
 msgstr "Ajouter un compte Mastodon"
 
-#: ui/Media/MediaPreviewItem.blp:36
-msgid "Animated GIF"
-msgstr "GIF animé"
-
-#: ui/Media/MediaPreviewItem.blp:42
-msgid "Video"
-msgstr "Vidéo"
-
-#: ui/Content/CollectionList.blp:17
-msgid "Posts"
-msgstr "Publications"
-
-#: ui/Content/CollectionList.blp:21
+#: ui/Content/CollectionFilter.blp:22
 msgid "Replies"
 msgstr "Réponses"
 
-#: ui/Content/CollectionList.blp:26
-msgid "Reposts"
-msgstr "Reposts"
-
-#: ui/Content/CollectionList.blp:31
+#: ui/Content/CollectionFilter.blp:36
 msgid "Media"
 msgstr "Média"
+
+#: ui/Media/MediaDisplay.blp:123
+msgid "Save Media"
+msgstr "Enregistrer le média"
+
+#: ui/Media/MediaDisplay.blp:128
+msgid "Copy Media URL"
+msgstr "Copier l'url du média"
+
+#: ui/Media/MediaDisplay.blp:133
+msgid "Open in Browser"
+msgstr "Ouvrir dans votre navigateur"
+
+#: ui/Media/MediaSelector.blp:49
+msgid "Animated GIF"
+msgstr "GIF animé"
+
+#: ui/Media/MediaSelector.blp:55
+msgid "Video"
+msgstr "Vidéo"
 
 #: ui/Widgets/BadgesBox.blp:15
 msgid "Verified User"
