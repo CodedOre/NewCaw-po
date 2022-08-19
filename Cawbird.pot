@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-07-27 14:50+0200\n"
+"POT-Creation-Date: 2022-08-19 12:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,51 +19,42 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. Name and descriptions
-#: data/uk.co.ibboard.Cawbird.appdata.xml:17
-#: data/uk.co.ibboard.Cawbird.desktop:3
-msgid "Cawbird"
+#. TRANSLATORS: Set by meson, do not translate
+#: data/uk.co.ibboard.Cawbird.appdata.xml:18
+#: data/uk.co.ibboard.Cawbird.desktop:4
+msgid "@app_name@"
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:18
+#: data/uk.co.ibboard.Cawbird.appdata.xml:19
+#: data/uk.co.ibboard.Cawbird.desktop:6
 msgid "Your window to the social world"
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:20
+#: data/uk.co.ibboard.Cawbird.appdata.xml:21
 msgid ""
 "Cawbird is a client for the short-text social networks Twitter and Mastodon."
 msgstr ""
 
 #. Developer
-#: data/uk.co.ibboard.Cawbird.appdata.xml:24
+#: data/uk.co.ibboard.Cawbird.appdata.xml:25
 msgid "IBBoard"
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:52
+#: data/uk.co.ibboard.Cawbird.appdata.xml:53
 msgid "Screenshot caption"
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:60
+#: data/uk.co.ibboard.Cawbird.appdata.xml:61
 msgid "This is a development build for the upcoming 2.0 release of Cawbird!"
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.desktop:4
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:4
+#: data/uk.co.ibboard.Cawbird.desktop:5
 msgid "Twitter Client"
 msgstr ""
 
-#: data/uk.co.ibboard.Cawbird.desktop:5
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:5
-msgid "A window to the social world"
-msgstr ""
-
 #. TRANSLATORS: Search terms to find this application, separated by semicolons. The list must end with a semicolon!
-#: data/uk.co.ibboard.Cawbird.desktop:7
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:7
+#: data/uk.co.ibboard.Cawbird.desktop:8
 msgid "twitter;"
-msgstr ""
-
-#: data/uk.co.ibboard.Cawbird.Devel.desktop:3
-msgid "Cawbird (Development Version)"
 msgstr ""
 
 #: data/uk.co.ibboard.Cawbird.gschema.xml:6
@@ -78,7 +69,15 @@ msgstr ""
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr ""
 
-#: src/Authentication/AuthView.vala:82 ui/Authentication/AuthView.blp:15
+#: src/Cawbird.vala:154
+msgid "Translators: Add your name here!"
+msgstr ""
+
+#: src/Cawbird.vala:171
+msgid "Based on Corebird, created by"
+msgstr ""
+
+#: src/Authentication/AuthView.vala:82 ui/Authentication/AuthView.blp:19
 msgid "Cancel"
 msgstr ""
 
@@ -86,44 +85,56 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/Authentication/CodePage.vala:176
+#: src/Authentication/CodePage.vala:155
 msgid "No code set!"
 msgstr ""
 
-#: src/Authentication/CodePage.vala:187
+#: src/Authentication/CodePage.vala:166
 msgid "Authentication failed."
 msgstr ""
 
-#: src/Authentication/ServerPage.vala:185
+#: src/Authentication/ServerPage.vala:164
 msgid "No domain set!"
 msgstr ""
 
-#: src/Authentication/ServerPage.vala:204
+#: src/Authentication/ServerPage.vala:183
 msgid "Could not find server."
 msgstr ""
 
-#: src/Authentication/ServerPage.vala:221
+#: src/Authentication/ServerPage.vala:200
 msgid "Could not authenticate at server."
 msgstr ""
 
-#: src/Authentication/ServerPage.vala:228
+#: src/Authentication/ServerPage.vala:207
 msgid "Why are you even here? There is no Mastodon backend!"
 msgstr ""
 
-#: src/Content/CollectionList.vala:59
+#: src/Content/CollectionFilter.vala:54
 msgid "Tweets"
 msgstr ""
 
-#: src/Content/CollectionList.vala:60
+#: src/Content/CollectionFilter.vala:55
 msgid "Retweets"
 msgstr ""
 
-#: src/Content/PostDisplay.vala:166
+#: src/Content/CollectionFilter.vala:59 ui/Content/CollectionFilter.blp:16
+msgid "Posts"
+msgstr ""
+
+#: src/Content/CollectionFilter.vala:60 ui/Content/CollectionFilter.blp:29
+msgid "Reposts"
+msgstr ""
+
+#: src/Content/PostActions.vala:62
 #, c-format
 msgid "Open on %s"
 msgstr ""
 
-#: src/Content/PostDisplay.vala:182
+#: src/Content/PostActions.vala:65
+msgid "Copy Link to Clipboard"
+msgstr ""
+
+#: src/Content/PostItem.vala:120
 #, c-format
 msgid "%s using %s"
 msgstr ""
@@ -193,15 +204,11 @@ msgstr ""
 msgid "%e %b %y"
 msgstr ""
 
-#: src/Windows/MainWindow.vala:140
-msgid "Translators: Add your name here!"
+#: src/Windows/MediaDialog.vala:76
+msgid "URL to media copied!"
 msgstr ""
 
-#: src/Windows/MainWindow.vala:142
-msgid "Based on Corebird, created by"
-msgstr ""
-
-#: ui/Authentication/AuthView.blp:21
+#: ui/Authentication/AuthView.blp:25
 msgid "Add Account"
 msgstr ""
 
@@ -213,8 +220,12 @@ msgstr ""
 msgid "Continue the authentication in your browser."
 msgstr ""
 
-#: ui/Authentication/BrowserPage.blp:15 ui/Authentication/FinalPage.blp:13
+#: ui/Authentication/BrowserPage.blp:19 ui/Authentication/FinalPage.blp:13
 msgid "Continue"
+msgstr ""
+
+#: ui/Authentication/BrowserPage.blp:45
+msgid "Retry Authentication"
 msgstr ""
 
 #: ui/Authentication/CodePage.blp:12
@@ -257,28 +268,32 @@ msgstr ""
 msgid "Add Mastodon Account"
 msgstr ""
 
-#: ui/Media/MediaPreviewItem.blp:36
-msgid "Animated GIF"
-msgstr ""
-
-#: ui/Media/MediaPreviewItem.blp:42
-msgid "Video"
-msgstr ""
-
-#: ui/Content/CollectionList.blp:17
-msgid "Posts"
-msgstr ""
-
-#: ui/Content/CollectionList.blp:21
+#: ui/Content/CollectionFilter.blp:22
 msgid "Replies"
 msgstr ""
 
-#: ui/Content/CollectionList.blp:26
-msgid "Reposts"
+#: ui/Content/CollectionFilter.blp:36
+msgid "Media"
 msgstr ""
 
-#: ui/Content/CollectionList.blp:31
-msgid "Media"
+#: ui/Media/MediaDisplay.blp:123
+msgid "Save Media"
+msgstr ""
+
+#: ui/Media/MediaDisplay.blp:128
+msgid "Copy Media URL"
+msgstr ""
+
+#: ui/Media/MediaDisplay.blp:133
+msgid "Open in Browser"
+msgstr ""
+
+#: ui/Media/MediaSelector.blp:49
+msgid "Animated GIF"
+msgstr ""
+
+#: ui/Media/MediaSelector.blp:55
+msgid "Video"
 msgstr ""
 
 #: ui/Widgets/BadgesBox.blp:15
