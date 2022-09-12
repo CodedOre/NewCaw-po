@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-08-19 12:07+0200\n"
+"POT-Creation-Date: 2022-09-12 11:30+0200\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -69,11 +69,11 @@ msgstr "The Size for the MediaDialog."
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr "A custom client key to authenticate Cawbird with Twitter."
 
-#: src/Cawbird.vala:154
+#: src/Cawbird.vala:156
 msgid "Translators: Add your name here!"
 msgstr "No translator"
 
-#: src/Cawbird.vala:171
+#: src/Cawbird.vala:173
 msgid "Based on Corebird, created by"
 msgstr "Based on Corebird, created by"
 
@@ -134,7 +134,7 @@ msgstr "Open on %s"
 msgid "Copy Link to Clipboard"
 msgstr "Copy Link to Clipboard"
 
-#: src/Content/PostItem.vala:120
+#: src/Content/PostItem.vala:208
 #, c-format
 msgid "%s using %s"
 msgstr "%s using %s"
@@ -236,13 +236,13 @@ msgstr "Enter the Passcode"
 msgid "Authentication Code"
 msgstr "Authentication Code"
 
-#: ui/Authentication/LoadPage.blp:10
-msgid "Finishing Authentication..."
-msgstr "Finishing Authentication..."
-
 #: ui/Authentication/FinalPage.blp:10
 msgid "Authentication Complete!"
 msgstr "Authentication Complete!"
+
+#: ui/Authentication/LoadPage.blp:10
+msgid "Finishing Authentication..."
+msgstr "Finishing Authentication..."
 
 #: ui/Authentication/ServerPage.blp:12
 msgid "Set your Server"
@@ -276,6 +276,10 @@ msgstr "Replies"
 msgid "Media"
 msgstr "Media"
 
+#: ui/Pages/MainPage.blp:77
+msgid "About"
+msgstr "About"
+
 #: ui/Media/MediaDisplay.blp:123
 msgid "Save Media"
 msgstr "Save Media"
@@ -295,6 +299,14 @@ msgstr "Animated GIF"
 #: ui/Media/MediaSelector.blp:55
 msgid "Video"
 msgstr "Video"
+
+#: ui/Widgets/AccountRow.blp:17
+msgid "Open in new Window"
+msgstr "Open in new Window"
+
+#: ui/Widgets/AccountSidebar.blp:29
+msgid "Display Account"
+msgstr "Display Account"
 
 #: ui/Widgets/BadgesBox.blp:15
 msgid "Verified User"

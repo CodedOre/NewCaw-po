@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-08-19 12:07+0200\n"
+"POT-Creation-Date: 2022-09-12 11:30+0200\n"
 "PO-Revision-Date: 2022-08-19 12:55+0200\n"
 "Last-Translator: A. Pinsard <apinsard@protonmail.com>\n"
 "Language-Team: none\n"
@@ -74,11 +74,11 @@ msgstr "La taille pour le dialogue média."
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr "Une clé client personnalisée pour autoriser Cawbird auprès de Twitter."
 
-#: src/Cawbird.vala:154
+#: src/Cawbird.vala:156
 msgid "Translators: Add your name here!"
 msgstr "A. Pinsard"
 
-#: src/Cawbird.vala:171
+#: src/Cawbird.vala:173
 msgid "Based on Corebird, created by"
 msgstr "Basé sur Corebird, créé par"
 
@@ -139,7 +139,7 @@ msgstr "Ouvrir sur %s"
 msgid "Copy Link to Clipboard"
 msgstr "Copier le lien dans le presse-papiers"
 
-#: src/Content/PostItem.vala:120
+#: src/Content/PostItem.vala:208
 #, c-format
 msgid "%s using %s"
 msgstr "%s en utilisant %s"
@@ -241,13 +241,13 @@ msgstr "Entrez le code de connexion"
 msgid "Authentication Code"
 msgstr "Code de connexion"
 
-#: ui/Authentication/LoadPage.blp:10
-msgid "Finishing Authentication..."
-msgstr "Finalisation de l'authentification..."
-
 #: ui/Authentication/FinalPage.blp:10
 msgid "Authentication Complete!"
 msgstr "Authentification terminée !"
+
+#: ui/Authentication/LoadPage.blp:10
+msgid "Finishing Authentication..."
+msgstr "Finalisation de l'authentification..."
 
 #: ui/Authentication/ServerPage.blp:12
 msgid "Set your Server"
@@ -281,6 +281,11 @@ msgstr "Réponses"
 msgid "Media"
 msgstr "Média"
 
+#: ui/Pages/MainPage.blp:77
+#, fuzzy
+msgid "About"
+msgstr ""
+
 #: ui/Media/MediaDisplay.blp:123
 msgid "Save Media"
 msgstr "Enregistrer le média"
@@ -300,6 +305,16 @@ msgstr "GIF animé"
 #: ui/Media/MediaSelector.blp:55
 msgid "Video"
 msgstr "Vidéo"
+
+#: ui/Widgets/AccountRow.blp:17
+#, fuzzy
+msgid "Open in new Window"
+msgstr ""
+
+#: ui/Widgets/AccountSidebar.blp:29
+#, fuzzy
+msgid "Display Account"
+msgstr ""
 
 #: ui/Widgets/BadgesBox.blp:15
 msgid "Verified User"

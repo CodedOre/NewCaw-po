@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-08-19 12:07+0200\n"
+"POT-Creation-Date: 2022-09-12 11:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,11 +69,11 @@ msgstr ""
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr ""
 
-#: src/Cawbird.vala:154
+#: src/Cawbird.vala:156
 msgid "Translators: Add your name here!"
 msgstr ""
 
-#: src/Cawbird.vala:171
+#: src/Cawbird.vala:173
 msgid "Based on Corebird, created by"
 msgstr ""
 
@@ -134,7 +134,7 @@ msgstr ""
 msgid "Copy Link to Clipboard"
 msgstr ""
 
-#: src/Content/PostItem.vala:120
+#: src/Content/PostItem.vala:208
 #, c-format
 msgid "%s using %s"
 msgstr ""
@@ -236,12 +236,12 @@ msgstr ""
 msgid "Authentication Code"
 msgstr ""
 
-#: ui/Authentication/LoadPage.blp:10
-msgid "Finishing Authentication..."
-msgstr ""
-
 #: ui/Authentication/FinalPage.blp:10
 msgid "Authentication Complete!"
+msgstr ""
+
+#: ui/Authentication/LoadPage.blp:10
+msgid "Finishing Authentication..."
 msgstr ""
 
 #: ui/Authentication/ServerPage.blp:12
@@ -276,6 +276,10 @@ msgstr ""
 msgid "Media"
 msgstr ""
 
+#: ui/Pages/MainPage.blp:77
+msgid "About"
+msgstr ""
+
 #: ui/Media/MediaDisplay.blp:123
 msgid "Save Media"
 msgstr ""
@@ -294,6 +298,14 @@ msgstr ""
 
 #: ui/Media/MediaSelector.blp:55
 msgid "Video"
+msgstr ""
+
+#: ui/Widgets/AccountRow.blp:17
+msgid "Open in new Window"
+msgstr ""
+
+#: ui/Widgets/AccountSidebar.blp:29
+msgid "Display Account"
 msgstr ""
 
 #: ui/Widgets/BadgesBox.blp:15
