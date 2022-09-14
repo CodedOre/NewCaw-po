@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird-po 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-09-12 11:30+0200\n"
+"POT-Creation-Date: 2022-09-14 12:31+0200\n"
 "PO-Revision-Date: 2022-08-19 12:55+0200\n"
 "Last-Translator: A. Pinsard <apinsard@protonmail.com>\n"
 "Language-Team: none\n"
@@ -66,23 +66,32 @@ msgstr "twitter;"
 msgid "Display user avatars round."
 msgstr "Afficher les photos de profils dans un rond."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:15
+#: data/uk.co.ibboard.Cawbird.gschema.xml:12
+msgid "Hides tags after the text."
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:18
+msgid "Hides links to media or quotes (Twitter only)."
+msgstr ""
+
+#: data/uk.co.ibboard.Cawbird.gschema.xml:27
 msgid "The Size for the MediaDialog."
 msgstr "La taille pour le dialogue média."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:24
+#: data/uk.co.ibboard.Cawbird.gschema.xml:36
 msgid "A custom client key to authenticate Cawbird with Twitter."
 msgstr "Une clé client personnalisée pour autoriser Cawbird auprès de Twitter."
 
-#: src/Cawbird.vala:156
+#: src/Cawbird.vala:193
 msgid "Translators: Add your name here!"
 msgstr "A. Pinsard"
 
-#: src/Cawbird.vala:173
+#: src/Cawbird.vala:210
 msgid "Based on Corebird, created by"
 msgstr "Basé sur Corebird, créé par"
 
-#: src/Authentication/AuthView.vala:82 ui/Authentication/AuthView.blp:19
+#: src/Authentication/AuthView.vala:82 src/Preferences/AccountSettings.vala:69
+#: ui/Authentication/AuthView.blp:19
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -123,6 +132,7 @@ msgid "Retweets"
 msgstr "Retweets"
 
 #: src/Content/CollectionFilter.vala:59 ui/Content/CollectionFilter.blp:16
+#: ui/Preferences/AppearancesPage.blp:18
 msgid "Posts"
 msgstr "Publications"
 
@@ -139,33 +149,52 @@ msgstr "Ouvrir sur %s"
 msgid "Copy Link to Clipboard"
 msgstr "Copier le lien dans le presse-papiers"
 
-#: src/Content/PostItem.vala:208
+#: src/Content/PostItem.vala:223
 #, c-format
 msgid "%s using %s"
 msgstr "%s en utilisant %s"
 
-#: src/Content/UserDisplay.vala:75
-#, c-format
-msgid "<b>%i</b>  Following"
-msgstr "<b>%i</b>  Abonné"
-
-#: src/Content/UserDisplay.vala:76
-#, c-format
-msgid "<b>%i</b>  Followers"
-msgstr "<b>%i</b>  Abonnés"
-
-#: src/Content/UserDisplay.vala:81
+#: src/Content/UserDisplay.vala:85
 #, c-format
 msgid "Joined %s"
 msgstr "A rejoint le %s"
 
-#: src/Content/UserDisplay.vala:97
+#: src/Content/UserDisplay.vala:101
 msgid "Website"
 msgstr "Site internet"
 
-#: src/Content/UserDisplay.vala:101
+#: src/Content/UserDisplay.vala:105
 msgid "Location"
 msgstr "Position"
+
+#: src/Content/UserDisplay.vala:155
+#, c-format
+msgid "<b>%i</b>  Following"
+msgstr "<b>%i</b>  Abonné"
+
+#: src/Content/UserDisplay.vala:156
+#, c-format
+msgid "<b>%i</b>  Followers"
+msgstr "<b>%i</b>  Abonnés"
+
+#: src/Media/MediaDialog.vala:76
+msgid "URL to media copied!"
+msgstr "URL du média copiée !"
+
+#: src/Preferences/AccountSettings.vala:67
+#, fuzzy
+msgid "Remove this Account?"
+msgstr "Bot"
+
+#: src/Preferences/AccountSettings.vala:68
+msgid "This will remove the access for this account from your client."
+msgstr ""
+
+#: src/Preferences/AccountSettings.vala:70
+#: ui/Preferences/AccountSettings.blp:31
+#, fuzzy
+msgid "Remove Account"
+msgstr "Bot"
 
 #: src/Utils/DisplayUtils.vala:47
 #, c-format
@@ -209,11 +238,7 @@ msgstr "%e %B %Y"
 msgid "%e %b %y"
 msgstr "%e %b %y"
 
-#: src/Windows/MediaDialog.vala:76
-msgid "URL to media copied!"
-msgstr "URL du média copiée !"
-
-#: ui/Authentication/AuthView.blp:25
+#: ui/Authentication/AuthView.blp:25 ui/Preferences/AccountsPage.blp:23
 msgid "Add Account"
 msgstr "Ajouter un compte"
 
@@ -282,8 +307,40 @@ msgid "Media"
 msgstr "Média"
 
 #: ui/Pages/MainPage.blp:77
-#, fuzzy
+msgid "Preferences"
+msgstr ""
+
+#: ui/Pages/MainPage.blp:81
 msgid "About"
+msgstr ""
+
+#: ui/Preferences/AccountsPage.blp:5
+#, fuzzy
+msgid "Accounts"
+msgstr "Ajouter un compte"
+
+#: ui/Preferences/AppearancesPage.blp:5
+msgid "Appearance"
+msgstr ""
+
+#: ui/Preferences/AppearancesPage.blp:21
+msgid "Round Avatars"
+msgstr ""
+
+#: ui/Preferences/AppearancesPage.blp:31
+msgid "Hide Trailing Tags"
+msgstr ""
+
+#: ui/Preferences/AppearancesPage.blp:41
+msgid "Hide Internal Links"
+msgstr ""
+
+#: ui/Preferences/AppearancesPage.blp:42
+msgid "Links to media or quotes."
+msgstr ""
+
+#: ui/Preferences/AppearancesPage.blp:48
+msgid "Only on Twitter"
 msgstr ""
 
 #: ui/Media/MediaDisplay.blp:123
@@ -307,12 +364,10 @@ msgid "Video"
 msgstr "Vidéo"
 
 #: ui/Widgets/AccountRow.blp:17
-#, fuzzy
 msgid "Open in new Window"
 msgstr ""
 
 #: ui/Widgets/AccountSidebar.blp:29
-#, fuzzy
 msgid "Display Account"
 msgstr ""
 

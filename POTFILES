@@ -9,8 +9,9 @@ src/Content/CollectionFilter.vala
 src/Content/PostActions.vala
 src/Content/PostItem.vala
 src/Content/UserDisplay.vala
+src/Media/MediaDialog.vala
+src/Preferences/AccountSettings.vala
 src/Utils/DisplayUtils.vala
-src/Windows/MediaDialog.vala
 ui/Authentication/AuthView.blp
 ui/Authentication/BrowserPage.blp
 ui/Authentication/CodePage.blp
@@ -20,6 +21,9 @@ ui/Authentication/ServerPage.blp
 ui/Authentication/StartPage.blp
 ui/Content/CollectionFilter.blp
 ui/Pages/MainPage.blp
+ui/Preferences/AccountSettings.blp
+ui/Preferences/AccountsPage.blp
+ui/Preferences/AppearancesPage.blp
 ui/Media/MediaDisplay.blp
 ui/Media/MediaSelector.blp
 ui/Widgets/AccountRow.blp
