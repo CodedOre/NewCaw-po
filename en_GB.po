@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cawbird 1.9.0\n"
 "Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
-"POT-Creation-Date: 2022-09-14 12:31+0200\n"
+"POT-Creation-Date: 2023-03-18 15:07+0100\n"
 "PO-Revision-Date: 2021-10-02 14:02+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,358 +19,350 @@ msgstr ""
 
 #. Name and descriptions
 #. TRANSLATORS: Set by meson, do not translate
-#: data/uk.co.ibboard.Cawbird.appdata.xml:18
-#: data/uk.co.ibboard.Cawbird.desktop:4
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:18
+#: ../../data/uk.co.ibboard.Cawbird.desktop:4
 msgid "@app_name@"
 msgstr "@app_name@"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:19
-#: data/uk.co.ibboard.Cawbird.desktop:6
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:19
+#: ../../data/uk.co.ibboard.Cawbird.desktop:6
 msgid "Your window to the social world"
 msgstr "Your window to the social world"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:21
-msgid ""
-"Cawbird is a client for the short-text social networks Twitter and Mastodon."
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:21
+msgid "Cawbird is a client for the short-text social networks like Mastodon."
 msgstr ""
-"Cawbird is a client for the short-text social networks Twitter and Mastodon."
+"Cawbird is a client for the short-text social networks like Mastodon."
 
 #. Developer
-#: data/uk.co.ibboard.Cawbird.appdata.xml:25
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:25
 msgid "IBBoard"
 msgstr "IBBoard"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:53
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:53
 msgid "Screenshot caption"
 msgstr "Screenshot caption"
 
-#: data/uk.co.ibboard.Cawbird.appdata.xml:61
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:61
 msgid "This is a development build for the upcoming 2.0 release of Cawbird!"
 msgstr "This is a development build for the upcoming 2.0 release of Cawbird!"
 
-#: data/uk.co.ibboard.Cawbird.desktop:5
-msgid "Twitter Client"
-msgstr "Twitter Client"
+#: ../../data/uk.co.ibboard.Cawbird.desktop:5
+msgid "Mastodon Client"
+msgstr "Mastodon Client"
 
 #. TRANSLATORS: Search terms to find this application, separated by semicolons. The list must end with a semicolon!
-#: data/uk.co.ibboard.Cawbird.desktop:8
-msgid "twitter;"
-msgstr "twitter;"
+#: ../../data/uk.co.ibboard.Cawbird.desktop:8
+msgid "mastodon;"
+msgstr "mastodon;"
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:6
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:6
 msgid "Display user avatars round."
 msgstr "Display user avatars round."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:12
-msgid "Hides tags after the text."
-msgstr "Hides tags after the text."
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:12
+msgid "If to show tags after the text."
+msgstr "If to show tags after the text."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:18
-msgid "Hides links to media or quotes (Twitter only)."
-msgstr "Hides links to media or quotes (Twitter only)."
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:18
+msgid "If a double click is required to activate posts."
+msgstr "If a double click is required to activate posts."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:27
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:27
 msgid "The Size for the MediaDialog."
 msgstr "The Size for the MediaDialog."
 
-#: data/uk.co.ibboard.Cawbird.gschema.xml:36
-msgid "A custom client key to authenticate Cawbird with Twitter."
-msgstr "A custom client key to authenticate Cawbird with Twitter."
-
-#: src/Cawbird.vala:193
+#: ../../src/Cawbird.vala:282
 msgid "Translators: Add your name here!"
 msgstr "No translator"
 
-#: src/Cawbird.vala:210
+#: ../../src/Cawbird.vala:299
 msgid "Based on Corebird, created by"
 msgstr "Based on Corebird, created by"
 
-#: src/Authentication/AuthView.vala:82 src/Preferences/AccountSettings.vala:69
-#: ui/Authentication/AuthView.blp:19
+#: ../../src/Authentication/AuthView.vala:87
+#: ../../src/Preferences/SessionSettings.vala:90
+#: ../../ui/Authentication/AuthView.blp:19
 msgid "Cancel"
 msgstr "Cancel"
 
-#: src/Authentication/AuthView.vala:99
+#: ../../src/Authentication/AuthView.vala:108
 msgid "Back"
 msgstr "Back"
 
-#: src/Authentication/CodePage.vala:155
+#: ../../src/Authentication/CodePage.vala:155
 msgid "No code set!"
 msgstr "No code set!"
 
-#: src/Authentication/CodePage.vala:166
+#: ../../src/Authentication/CodePage.vala:166
 msgid "Authentication failed."
 msgstr "Authentication failed."
 
-#: src/Authentication/ServerPage.vala:164
+#: ../../src/Authentication/ServerPage.vala:164
 msgid "No domain set!"
 msgstr "No domain set!"
 
-#: src/Authentication/ServerPage.vala:183
-msgid "Could not find server."
-msgstr "Could not find server."
-
-#: src/Authentication/ServerPage.vala:200
+#: ../../src/Authentication/ServerPage.vala:182
 msgid "Could not authenticate at server."
 msgstr "Could not authenticate at server."
 
-#: src/Authentication/ServerPage.vala:207
+#: ../../src/Authentication/ServerPage.vala:189
 msgid "Why are you even here? There is no Mastodon backend!"
 msgstr "Why are you even here? There is no Mastodon backend!"
 
-#: src/Content/CollectionFilter.vala:54
-msgid "Tweets"
-msgstr "Tweets"
-
-#: src/Content/CollectionFilter.vala:55
-msgid "Retweets"
-msgstr "Retweets"
-
-#: src/Content/CollectionFilter.vala:59 ui/Content/CollectionFilter.blp:16
-#: ui/Preferences/AppearancesPage.blp:18
+#: ../../src/Collections/CollectionFilter.vala:50
+#: ../../ui/Collections/CollectionFilter.blp:16
+#: ../../ui/Preferences/AppearancesPage.blp:18
 msgid "Posts"
 msgstr "Posts"
 
-#: src/Content/CollectionFilter.vala:60 ui/Content/CollectionFilter.blp:29
+#: ../../src/Collections/CollectionFilter.vala:51
+#: ../../ui/Collections/CollectionFilter.blp:26
 msgid "Reposts"
 msgstr "Reposts"
 
-#: src/Content/PostActions.vala:62
+#: ../../src/Content/PostActions.vala:96 ../../src/Content/UserCard.vala:55
 #, c-format
 msgid "Open on %s"
 msgstr "Open on %s"
 
-#: src/Content/PostActions.vala:65
+#: ../../src/Content/PostActions.vala:99 ../../src/Content/UserCard.vala:58
 msgid "Copy Link to Clipboard"
 msgstr "Copy Link to Clipboard"
 
-#: src/Content/PostItem.vala:223
+#: ../../src/Content/PostItem.vala:200
+msgid "Pinned by %s"
+msgstr "Pinned by %s"
+
+#: ../../src/Content/PostItem.vala:212
 #, c-format
 msgid "%s using %s"
 msgstr "%s using %s"
 
-#: src/Content/UserDisplay.vala:85
-#, c-format
-msgid "Joined %s"
-msgstr "Joined %s"
+#: ../../src/Content/UserDataDisplay.vala:54
+msgid "Verified on %s"
+msgstr "Verified on %s"
 
-#: src/Content/UserDisplay.vala:101
-msgid "Website"
-msgstr "Website"
-
-#: src/Content/UserDisplay.vala:105
-msgid "Location"
-msgstr "Location"
-
-#: src/Content/UserDisplay.vala:155
+#: ../../src/Content/UserDisplay.vala:135
 #, c-format
 msgid "<b>%i</b>  Following"
 msgstr "<b>%i</b>  Following"
 
-#: src/Content/UserDisplay.vala:156
+#: ../../src/Content/UserDisplay.vala:136
 #, c-format
 msgid "<b>%i</b>  Followers"
 msgstr "<b>%i</b>  Followers"
 
-#: src/Media/MediaDialog.vala:76
+#: ../../src/Content/UserDisplay.vala:139
+#, c-format
+msgid "Joined %s"
+msgstr "Joined %s"
+
+#: ../../src/Media/MediaDialog.vala:76
 msgid "URL to media copied!"
 msgstr "URL to media copied!"
 
-#: src/Preferences/AccountSettings.vala:67
+#: ../../src/Preferences/SessionSettings.vala:88
 msgid "Remove this Account?"
 msgstr "Remove this Account?"
 
-#: src/Preferences/AccountSettings.vala:68
+#: ../../src/Preferences/SessionSettings.vala:89
 msgid "This will remove the access for this account from your client."
 msgstr "This will remove the access for this account from your client."
 
-#: src/Preferences/AccountSettings.vala:70
-#: ui/Preferences/AccountSettings.blp:31
+#: ../../src/Preferences/SessionSettings.vala:91
+#: ../../ui/Preferences/SessionSettings.blp:52
 msgid "Remove Account"
 msgstr "Remove Account"
 
-#: src/Utils/DisplayUtils.vala:47
+#: ../../src/Utils/DisplayUtils.vala:47
 #, c-format
 msgid "%i minute ago"
 msgid_plural "%i minutes ago"
 msgstr[0] "%i minute ago"
 msgstr[1] "%i minutes ago"
 
-#: src/Utils/DisplayUtils.vala:49
+#: ../../src/Utils/DisplayUtils.vala:49
 #, c-format
 msgid "%im"
 msgstr "%im"
 
-#: src/Utils/DisplayUtils.vala:57
+#: ../../src/Utils/DisplayUtils.vala:57
 #, c-format
 msgid "%i hour ago"
 msgid_plural "%i hours ago"
 msgstr[0] "%i hour ago"
 msgstr[1] "%i hours ago"
 
-#: src/Utils/DisplayUtils.vala:59
+#: ../../src/Utils/DisplayUtils.vala:59
 #, c-format
 msgid "%ih"
 msgstr "%ih"
 
-#. TRANSLATORS: Full-text date format for tweets from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:67
+#. TRANSLATORS: Full-text date format for dates from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
+#: ../../src/Utils/DisplayUtils.vala:82
 msgid "%e %B"
 msgstr "%e %B"
 
-#: src/Utils/DisplayUtils.vala:69
+#: ../../src/Utils/DisplayUtils.vala:84
 msgid "%e %b"
 msgstr "%e %b"
 
-#. TRANSLATORS: Full-text date format for tweets from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
-#: src/Utils/DisplayUtils.vala:74
+#. TRANSLATORS: Full-text date format for dates from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
+#: ../../src/Utils/DisplayUtils.vala:89
 msgid "%e %B %Y"
 msgstr "%e %B %Y"
 
-#: src/Utils/DisplayUtils.vala:76
+#: ../../src/Utils/DisplayUtils.vala:91
 msgid "%e %b %y"
 msgstr "%e %b %Y"
 
-#: ui/Authentication/AuthView.blp:25 ui/Preferences/AccountsPage.blp:23
+#: ../../src/Utils/SystemInfo.vala:126 ../../src/Utils/SystemInfo.vala:128
+msgid "UNKNOWN"
+msgstr ""
+
+#: ../../ui/Authentication/AuthView.blp:25
+#: ../../ui/Preferences/SessionsPage.blp:23
 msgid "Add Account"
 msgstr "Add Account"
 
-#: ui/Authentication/BrowserPage.blp:10
+#: ../../ui/Authentication/BrowserPage.blp:10
 msgid "Authenticate Cawbird"
 msgstr "Authenticate Cawbird"
 
-#: ui/Authentication/BrowserPage.blp:11
+#: ../../ui/Authentication/BrowserPage.blp:11
 msgid "Continue the authentication in your browser."
 msgstr "Continue the authentication in your browser."
 
-#: ui/Authentication/BrowserPage.blp:19 ui/Authentication/FinalPage.blp:13
+#: ../../ui/Authentication/BrowserPage.blp:19
+#: ../../ui/Authentication/FinalPage.blp:13
 msgid "Continue"
 msgstr "Continue"
 
-#: ui/Authentication/BrowserPage.blp:45
+#: ../../ui/Authentication/BrowserPage.blp:45
 msgid "Retry Authentication"
 msgstr "Retry Authentication"
 
-#: ui/Authentication/CodePage.blp:12
+#: ../../ui/Authentication/CodePage.blp:12
 msgid "Enter the Passcode"
 msgstr "Enter the Passcode"
 
-#: ui/Authentication/CodePage.blp:25
+#: ../../ui/Authentication/CodePage.blp:25
 msgid "Authentication Code"
 msgstr "Authentication Code"
 
-#: ui/Authentication/FinalPage.blp:10
+#: ../../ui/Authentication/FinalPage.blp:10
 msgid "Authentication Complete!"
 msgstr "Authentication Complete!"
 
-#: ui/Authentication/LoadPage.blp:10
+#: ../../ui/Authentication/LoadPage.blp:10
 msgid "Finishing Authentication..."
 msgstr "Finishing Authentication..."
 
-#: ui/Authentication/ServerPage.blp:12
+#: ../../ui/Authentication/ServerPage.blp:12
 msgid "Set your Server"
 msgstr "Set your Server"
 
-#: ui/Authentication/ServerPage.blp:13
+#: ../../ui/Authentication/ServerPage.blp:13
 msgid "Set the server to your Mastodon instance"
 msgstr "Set the server to your Mastodon instance"
 
-#: ui/Authentication/ServerPage.blp:26
+#: ../../ui/Authentication/ServerPage.blp:26
 msgid "Server Domain"
 msgstr "Server Domain"
 
-#: ui/Authentication/StartPage.blp:10
+#: ../../ui/Authentication/StartPage.blp:10
 msgid "Add an Account"
 msgstr "Add an Account"
 
-#: ui/Authentication/StartPage.blp:22
-msgid "Add Twitter Account"
-msgstr "Add Twitter Account"
-
-#: ui/Authentication/StartPage.blp:34
+#: ../../ui/Authentication/StartPage.blp:20
 msgid "Add Mastodon Account"
 msgstr "Add Mastodon Account"
 
-#: ui/Content/CollectionFilter.blp:22
+#: ../../ui/Collections/CollectionFilter.blp:21
 msgid "Replies"
 msgstr "Replies"
 
-#: ui/Content/CollectionFilter.blp:36
+#: ../../ui/Collections/CollectionFilter.blp:31
 msgid "Media"
 msgstr "Media"
 
-#: ui/Pages/MainPage.blp:77
-msgid "Preferences"
-msgstr "Preferences"
+#: ../../ui/Content/PostContent.blp:24
+msgid "Click to view content"
+msgstr "Click to view content"
 
-#: ui/Pages/MainPage.blp:81
-msgid "About"
-msgstr "About"
-
-#: ui/Preferences/AccountsPage.blp:5
-msgid "Accounts"
-msgstr "Accounts"
-
-#: ui/Preferences/AppearancesPage.blp:5
-msgid "Appearance"
-msgstr "Appearance"
-
-#: ui/Preferences/AppearancesPage.blp:21
-msgid "Round Avatars"
-msgstr "Round Avatars"
-
-#: ui/Preferences/AppearancesPage.blp:31
-msgid "Hide Trailing Tags"
-msgstr "Hide Trailing Tags"
-
-#: ui/Preferences/AppearancesPage.blp:41
-msgid "Hide Internal Links"
-msgstr "Hide Internal Links"
-
-#: ui/Preferences/AppearancesPage.blp:42
-msgid "Links to media or quotes."
-msgstr "Links to media or quotes."
-
-#: ui/Preferences/AppearancesPage.blp:48
-msgid "Only on Twitter"
-msgstr "Only on Twitter"
-
-#: ui/Media/MediaDisplay.blp:123
+#: ../../ui/Media/MediaDisplay.blp:123
 msgid "Save Media"
 msgstr "Save Media"
 
-#: ui/Media/MediaDisplay.blp:128
+#: ../../ui/Media/MediaDisplay.blp:128
 msgid "Copy Media URL"
 msgstr "Copy Media URL"
 
-#: ui/Media/MediaDisplay.blp:133
+#: ../../ui/Media/MediaDisplay.blp:133
 msgid "Open in Browser"
 msgstr "Open in Browser"
 
-#: ui/Media/MediaSelector.blp:49
+#: ../../ui/Media/MediaSelector.blp:49
 msgid "Animated GIF"
 msgstr "Animated GIF"
 
-#: ui/Media/MediaSelector.blp:55
+#: ../../ui/Media/MediaSelector.blp:55
 msgid "Video"
 msgstr "Video"
 
-#: ui/Widgets/AccountRow.blp:17
-msgid "Open in new Window"
-msgstr "Open in new Window"
+#: ../../ui/Pages/MainPage.blp:76
+msgid "Preferences"
+msgstr "Preferences"
 
-#: ui/Widgets/AccountSidebar.blp:29
-msgid "Display Account"
-msgstr "Display Account"
+#: ../../ui/Pages/MainPage.blp:80
+msgid "About"
+msgstr "About"
 
-#: ui/Widgets/BadgesBox.blp:15
+#: ../../ui/Preferences/AppearancesPage.blp:5
+msgid "Appearance"
+msgstr "Appearance"
+
+#: ../../ui/Preferences/AppearancesPage.blp:21
+msgid "Round Avatars"
+msgstr "Round Avatars"
+
+#: ../../ui/Preferences/AppearancesPage.blp:31
+msgid "Display Trailing Tags"
+msgstr "Display Trailing Tags"
+
+#: ../../ui/Preferences/AppearancesPage.blp:41
+msgid "Activate on Double-Click"
+msgstr "Activate on Double-Click"
+
+#: ../../ui/Preferences/SessionSettings.blp:27
+msgid "Account Settings"
+msgstr "Account Settings"
+
+#: ../../ui/Preferences/SessionSettings.blp:30
+msgid "Auto-start"
+msgstr "Auto-start"
+
+#: ../../ui/Preferences/SessionsPage.blp:5
+msgid "Accounts"
+msgstr "Accounts"
+
+#: ../../ui/Widgets/BadgesBox.blp:15
 msgid "Verified User"
 msgstr "Verified User"
 
-#: ui/Widgets/BadgesBox.blp:26
+#: ../../ui/Widgets/BadgesBox.blp:26
 msgid "Bot Account"
 msgstr "Bot Account"
 
-#: ui/Widgets/BadgesBox.blp:37
+#: ../../ui/Widgets/BadgesBox.blp:37
 msgid "Protected User"
 msgstr "Protected User"
+
+#: ../../ui/Widgets/SessionRow.blp:17
+msgid "Open in new Window"
+msgstr "Open in new Window"
+
+#: ../../ui/Widgets/SessionSidebar.blp:29
+msgid "Display Account"
+msgstr "Display Account"
