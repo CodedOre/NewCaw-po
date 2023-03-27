@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR 2021 Frederick Schenk
+# This file is distributed under the same license as the Cawbird-po package.
+# FIRST AUTHOR Amerey.eu <info@amerey.eu>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cawbird-po 1.9.0\n"
+"Report-Msgid-Bugs-To: https://github.com/ibboard/cawbird/issues/new\n"
+"POT-Creation-Date: 2023-03-18 15:07+0100\n"
+"PO-Revision-Date: 2023-03-27 17:57+0200\n"
+"Last-Translator: Amerey.eu <info@amerey.eu>\n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. Name and descriptions
+#. TRANSLATORS: Set by meson, do not translate
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:18
+#: ../../data/uk.co.ibboard.Cawbird.desktop:4
+msgid "@app_name@"
+msgstr "@app_name@"
+
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:19
+#: ../../data/uk.co.ibboard.Cawbird.desktop:6
+msgid "Your window to the social world"
+msgstr "Vaše okno do světa sociálních sítí"
+
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:21
+msgid "Cawbird is a client for the short-text social networks like Mastodon."
+msgstr "Cawbird je klientem pro sociální sítě s krátkým textem, jako je Mastodon."
+
+#. Developer
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:25
+msgid "IBBoard"
+msgstr "IBBoard"
+
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:53
+msgid "Screenshot caption"
+msgstr "Popisek snímku obrazovky"
+
+#: ../../data/uk.co.ibboard.Cawbird.appdata.xml:61
+msgid "This is a development build for the upcoming 2.0 release of Cawbird!"
+msgstr "Toto je vývojové sestavení pro nadcházející verzi 2.0 Cawbird!"
+
+#: ../../data/uk.co.ibboard.Cawbird.desktop:5
+msgid "Mastodon Client"
+msgstr "Klient Mastodon"
+
+#. TRANSLATORS: Search terms to find this application, separated by semicolons. The list must end with a semicolon!
+#: ../../data/uk.co.ibboard.Cawbird.desktop:8
+msgid "mastodon;"
+msgstr "mastodon;"
+
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:6
+msgid "Display user avatars round."
+msgstr "Zobrazit uživatelské avatary kulaté."
+
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:12
+msgid "If to show tags after the text."
+msgstr "Pokud chcete zobrazit tagy za textem."
+
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:18
+msgid "If a double click is required to activate posts."
+msgstr "Pokud je k aktivaci příspěvků potřeba dvojité kliknutí."
+
+#: ../../data/uk.co.ibboard.Cawbird.gschema.xml:27
+msgid "The Size for the MediaDialog."
+msgstr "Velikost pro MediaDialog."
+
+#: ../../src/Cawbird.vala:282
+msgid "Translators: Add your name here!"
+msgstr "Amerey.eu"
+
+#: ../../src/Cawbird.vala:299
+msgid "Based on Corebird, created by"
+msgstr "Založeno na Corebirdu, vytvořeno"
+
+#: ../../src/Authentication/AuthView.vala:87
+#: ../../src/Preferences/SessionSettings.vala:90
+#: ../../ui/Authentication/AuthView.blp:19
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../../src/Authentication/AuthView.vala:108
+msgid "Back"
+msgstr "Zpět"
+
+#: ../../src/Authentication/CodePage.vala:155
+msgid "No code set!"
+msgstr "Není nastaven žádný kód!"
+
+#: ../../src/Authentication/CodePage.vala:166
+msgid "Authentication failed."
+msgstr "Ověření se nezdařilo."
+
+#: ../../src/Authentication/ServerPage.vala:164
+msgid "No domain set!"
+msgstr "Není nastavena žádná doména!"
+
+#: ../../src/Authentication/ServerPage.vala:182
+msgid "Could not authenticate at server."
+msgstr "Nelze ověřit na serveru."
+
+#: ../../src/Authentication/ServerPage.vala:189
+msgid "Why are you even here? There is no Mastodon backend!"
+msgstr "Proč jsi vůbec tady? Žádný backend Mastodon neexistuje!"
+
+#: ../../src/Collections/CollectionFilter.vala:50
+#: ../../ui/Collections/CollectionFilter.blp:16
+#: ../../ui/Preferences/AppearancesPage.blp:18
+msgid "Posts"
+msgstr "Příspěvky"
+
+#: ../../src/Collections/CollectionFilter.vala:51
+#: ../../ui/Collections/CollectionFilter.blp:26
+msgid "Reposts"
+msgstr "Reposty"
+
+#: ../../src/Content/PostActions.vala:96 ../../src/Content/UserCard.vala:55
+#, c-format
+msgid "Open on %s"
+msgstr "Otevřít na %s"
+
+#: ../../src/Content/PostActions.vala:99 ../../src/Content/UserCard.vala:58
+msgid "Copy Link to Clipboard"
+msgstr "Zkopírovat odkaz do schránky"
+
+#: ../../src/Content/PostItem.vala:200
+#, c-format
+msgid "Pinned by %s"
+msgstr "Připnuto uživatelem %s"
+
+#: ../../src/Content/PostItem.vala:212
+#, c-format
+msgid "%s using %s"
+msgstr "%s pomocí %s"
+
+#: ../../src/Content/UserDataDisplay.vala:54
+#, c-format
+msgid "Verified on %s"
+msgstr "Ověřeno %s"
+
+#: ../../src/Content/UserDisplay.vala:135
+#, c-format
+msgid "<b>%i</b>  Following"
+msgstr "<b>%i</b> sleduje"
+
+#: ../../src/Content/UserDisplay.vala:136
+#, c-format
+msgid "<b>%i</b>  Followers"
+msgstr "<b>%i</b> sledující"
+
+#: ../../src/Content/UserDisplay.vala:139
+#, c-format
+msgid "Joined %s"
+msgstr "Připojil se  %s"
+
+#: ../../src/Media/MediaDialog.vala:76
+msgid "URL to media copied!"
+msgstr "Adresa URL média zkopírována!"
+
+#: ../../src/Preferences/SessionSettings.vala:88
+msgid "Remove this Account?"
+msgstr "Chcete tento účet odstranit?"
+
+#: ../../src/Preferences/SessionSettings.vala:89
+msgid "This will remove the access for this account from your client."
+msgstr "Tímto odeberete přístup k tomuto účtu."
+
+#: ../../src/Preferences/SessionSettings.vala:91
+#: ../../ui/Preferences/SessionSettings.blp:52
+msgid "Remove Account"
+msgstr "Odstranit účet"
+
+#: ../../src/Utils/DisplayUtils.vala:47
+#, c-format
+msgid "%i minute ago"
+msgid_plural "%i minutes ago"
+msgstr[0] "před %i minutou"
+msgstr[1] "před %i minutami"
+msgstr[2] "před %i minutami"
+
+#: ../../src/Utils/DisplayUtils.vala:49
+#, c-format
+msgid "%im"
+msgstr "%im"
+
+#: ../../src/Utils/DisplayUtils.vala:57
+#, c-format
+msgid "%i hour ago"
+msgid_plural "%i hours ago"
+msgstr[0] "před %i hodinou"
+msgstr[1] "před %i hodinami"
+msgstr[2] "před %i hodinami"
+
+#: ../../src/Utils/DisplayUtils.vala:59
+#, c-format
+msgid "%ih"
+msgstr "%ih"
+
+#. TRANSLATORS: Full-text date format for dates from this years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
+#: ../../src/Utils/DisplayUtils.vala:82
+msgid "%e %B"
+msgstr "%e %B"
+
+#: ../../src/Utils/DisplayUtils.vala:84
+msgid "%e %b"
+msgstr "%e %b"
+
+#. TRANSLATORS: Full-text date format for dates from previous years - see https://valadoc.org/glib-2.0/GLib.DateTime.format.html
+#: ../../src/Utils/DisplayUtils.vala:89
+msgid "%e %B %Y"
+msgstr "%e %B %Y"
+
+#: ../../src/Utils/DisplayUtils.vala:91
+msgid "%e %b %y"
+msgstr "%e %b %y"
+
+#: ../../src/Utils/SystemInfo.vala:126 ../../src/Utils/SystemInfo.vala:128
+msgid "UNKNOWN"
+msgstr "NEZNÁMÝ"
+
+#: ../../ui/Authentication/AuthView.blp:25
+#: ../../ui/Preferences/SessionsPage.blp:23
+msgid "Add Account"
+msgstr "Přidat účet"
+
+#: ../../ui/Authentication/BrowserPage.blp:10
+msgid "Authenticate Cawbird"
+msgstr "Ověřit Cawbird"
+
+#: ../../ui/Authentication/BrowserPage.blp:11
+msgid "Continue the authentication in your browser."
+msgstr "Pokračujte v ověřování ve svém prohlížeči."
+
+#: ../../ui/Authentication/BrowserPage.blp:19
+#: ../../ui/Authentication/FinalPage.blp:13
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: ../../ui/Authentication/BrowserPage.blp:45
+msgid "Retry Authentication"
+msgstr "Opakovat ověření"
+
+#: ../../ui/Authentication/CodePage.blp:12
+msgid "Enter the Passcode"
+msgstr "Zadejte heslo"
+
+#: ../../ui/Authentication/CodePage.blp:25
+msgid "Authentication Code"
+msgstr "Ověřovací kód"
+
+#: ../../ui/Authentication/FinalPage.blp:10
+msgid "Authentication Complete!"
+msgstr "Ověřování dokončeno!"
+
+#: ../../ui/Authentication/LoadPage.blp:10
+msgid "Finishing Authentication..."
+msgstr "Dokončování ověřování..."
+
+#: ../../ui/Authentication/ServerPage.blp:12
+msgid "Set your Server"
+msgstr "Nastavte svůj server"
+
+#: ../../ui/Authentication/ServerPage.blp:13
+msgid "Set the server to your Mastodon instance"
+msgstr "Nastavte server na vaši instanci Mastodon"
+
+#: ../../ui/Authentication/ServerPage.blp:26
+msgid "Server Domain"
+msgstr "Doména serveru"
+
+#: ../../ui/Authentication/StartPage.blp:10
+msgid "Add an Account"
+msgstr "Přidat účet"
+
+#: ../../ui/Authentication/StartPage.blp:20
+msgid "Add Mastodon Account"
+msgstr "Přidat účet Mastodon"
+
+#: ../../ui/Collections/CollectionFilter.blp:21
+msgid "Replies"
+msgstr "Odpovědi"
+
+#: ../../ui/Collections/CollectionFilter.blp:31
+msgid "Media"
+msgstr "Média"
+
+#: ../../ui/Content/PostContent.blp:24
+msgid "Click to view content"
+msgstr "Kliknutím zobrazíte obsah"
+
+#: ../../ui/Media/MediaDisplay.blp:123
+msgid "Save Media"
+msgstr "Uložit média"
+
+#: ../../ui/Media/MediaDisplay.blp:128
+msgid "Copy Media URL"
+msgstr "Kopírovat adresu URL média"
+
+#: ../../ui/Media/MediaDisplay.blp:133
+msgid "Open in Browser"
+msgstr "Otevřít v prohlížeči"
+
+#: ../../ui/Media/MediaSelector.blp:49
+msgid "Animated GIF"
+msgstr "Animovaný GIF"
+
+#: ../../ui/Media/MediaSelector.blp:55
+msgid "Video"
+msgstr "Video"
+
+#: ../../ui/Pages/MainPage.blp:76
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: ../../ui/Pages/MainPage.blp:80
+msgid "About"
+msgstr "O aplikaci"
+
+#: ../../ui/Preferences/AppearancesPage.blp:5
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: ../../ui/Preferences/AppearancesPage.blp:21
+msgid "Round Avatars"
+msgstr "Kulatí avataři"
+
+#: ../../ui/Preferences/AppearancesPage.blp:31
+msgid "Display Trailing Tags"
+msgstr "Zobrazit koncové tagy"
+
+#: ../../ui/Preferences/AppearancesPage.blp:41
+msgid "Activate on Double-Click"
+msgstr "Aktivovat dvojitým kliknutím"
+
+#: ../../ui/Preferences/SessionSettings.blp:27
+msgid "Account Settings"
+msgstr "Nastavení účtu"
+
+#: ../../ui/Preferences/SessionSettings.blp:30
+msgid "Auto-start"
+msgstr "Automatické spuštění"
+
+#: ../../ui/Preferences/SessionsPage.blp:5
+msgid "Accounts"
+msgstr "Účty"
+
+#: ../../ui/Widgets/BadgesBox.blp:15
+msgid "Verified User"
+msgstr "Ověřený uživatel"
+
+#: ../../ui/Widgets/BadgesBox.blp:26
+msgid "Bot Account"
+msgstr "Účet robota"
+
+#: ../../ui/Widgets/BadgesBox.blp:37
+msgid "Protected User"
+msgstr "Chráněný uživatel"
+
+#: ../../ui/Widgets/SessionRow.blp:17
+msgid "Open in new Window"
+msgstr "Otevřít v novém okně"
+
+#: ../../ui/Widgets/SessionSidebar.blp:29
+msgid "Display Account"
+msgstr "Zobrazit účet"
